@@ -1,0 +1,91 @@
+body {
+    margin: 0;
+    font-family:'Noto Sans KR', 'Barlow';
+
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.navbar {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    background:cornflowerblue;
+    padding: 8px 12px;
+}
+
+.navbar_logo {
+    font-size: 24px;
+}
+
+.navbar_log i {
+    color:crimson;
+    font-size: 32px;
+}
+
+.navbar_menu {
+    display:flex;
+    list-style: none;
+    padding-left: 0;
+}
+
+.navbar_menu li {
+    padding: 8px 12px;
+    
+}
+
+.navbar_menu li:hover {
+    background-color: darkgoldenrod;
+    border-radius: 5px;
+}
+
+.navbar_links {
+    display:flex;
+    list-style: none;
+    padding: 8px 12px;
+    padding-left: 0;
+
+
+}
+
+.navbar_links li {
+    padding: 8px 5px;
+    font-size: 12px;
+}
+
+.navbar_toogleBtn {
+    position:absolute;
+    right: 32px;
+    font-size: 24px;
+}
+
+
+@media screen and (max-width: 768px) {
+   
+    .navbar {
+        flex-direction:column;
+        align-items: flex-start;
+        padding: 8px 24px;
+    }
+
+    .navbar_menu {
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+
+    }
+
+    .navbar_menu li {
+        width: 100%;
+        text-align: center;
+    }
+
+    .navbar_links {
+        justify-content: center;
+        width: 100%;
+    }
+}
+
