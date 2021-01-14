@@ -217,13 +217,13 @@ header .header__wrap nav.gnb ul.main-menu li.menu-item {
     padding: 0 10px;
 }
 
-header .header__wrap nav.gnb ul.main-menu li.menu-item:nth-of-type(1)>a~.menu-sub {
+header .header__wrap nav.gnb ul.main-menu li.menu-item:nth-of-type(1) > a~.menu-sub {
     left: 0;
     transform: none;
     padding-left: 20px;
 }
 
-header .header__wrap nav.gnb ul.main-menu li.menu-item>a {
+header .header__wrap nav.gnb ul.main-menu li.menu-item > a {
     /* padding: 50px 15px 10px;
     line-height: 35px;
     color: rgba(255, 255, 255, 0.4);
@@ -238,17 +238,17 @@ header .header__wrap nav.gnb ul.main-menu li.menu-item>a {
     padding-top: 50px;
 }
 
-header .header__wrap nav.gnb ul.main-menu li.menu-item>a.on {
+header .header__wrap nav.gnb ul.main-menu li.menu-item > a.on {
     background: rgba(0, 0, 0, 0.4);
     color: #fdb525;
 
 }
 
-header .header__wrap nav.gnb ul.main-menu li.menu-item>a.on~.menu-sub {
+header .header__wrap nav.gnb ul.main-menu li.menu-item > a.on~.menu-sub {
     display: block;
 }
 
-header .header__wrap nav.gnb ul.main-menu li.menu-item>a~.menu-sub {
+header .header__wrap nav.gnb ul.main-menu li.menu-item > a~.menu-sub {
     display: none;
     position: absolute;
     left: 50%;
@@ -259,20 +259,20 @@ header .header__wrap nav.gnb ul.main-menu li.menu-item>a~.menu-sub {
     bottom: -48px;
 }
 
-header .header__wrap nav.gnb ul.main-menu li.menu-item>a~.menu-sub li {
+header .header__wrap nav.gnb ul.main-menu li.menu-item > a~.menu-sub li {
     display: inline-block;
     vertical-align: middle;
     padding: 0 20px;
     height: 100%;
 }
 
-header .header__wrap nav.gnb ul.main-menu li.menu-item>a~.menu-sub li a {
+header .header__wrap nav.gnb ul.main-menu li.menu-item > a~.menu-sub li a {
     font-size: 18px;
     color: #fff;
     line-height: 44px;
 }
 
-header .header__wrap nav.gnb ul.main-menu li.menu-item>a~.menu-sub li a:hover {
+header .header__wrap nav.gnb ul.main-menu li.menu-item > a~.menu-sub li a:hover {
     color: #fdb525;
 }
 
@@ -653,11 +653,11 @@ section.main__info__event .swiper-container .swiper-wrapper .swiper-slide a .hov
 
 section.main__info__event .swiper-container .swiper-wrapper .swiper-slide a .txt-box {
     color: #414042;
-    padding: 0px 10px;
+    padding: 0 10px;
     font-size: 18px;
     line-height: 24px;
     margin-top: -20px;
-    
+
 }
 
 section.main__info__event .swiper-control {
@@ -2398,7 +2398,6 @@ article.filter__form .filter__form__wrap ul li.full .filter-box a {
     line-height: 100px;
 }
 
-
 /*# sourceMappingURL=style.css.map */
 /*----------------------------------------------------------------------------------------------------------------------------------------*/
 
@@ -2579,9 +2578,9 @@ div.rightBox {
     line-height: 30px;
 }
 
-.ct-text h4{
+.ct-text h4 {
     position: relative;
-    top:-35px;
+    top: -35px;
     color: white;
     font-size: 21px;
     text-align: center;
@@ -4331,7 +4330,7 @@ div.efoijwe table tr {
 div.efoijwe table th.in1 {
     text-align: center;
     background-color: #fff0d3;
-    color: #666666; 
+    color: #666666;
 }
 
 div.efoijwe table th.in2 {
@@ -4347,38 +4346,38 @@ div.efoijwe table td {
 }
 
 .ns-bold {
-  font-family: 'NanumSquare', sans-serif;
-  font-weight: bold;
+    font-family: 'NanumSquare', sans-serif;
+    font-weight: bold;
 }
 .ns-normal {
     font-family: 'NanumSquare', sans-serif;
     font-weight: 400;
- }
- .ns-exbold {
+}
+.ns-exbold {
     font-family: 'NanumSquare', sans-serif;
     font-weight: bolder;
- }
+}
 
- .sectors.comlist {
-     display: block;
-     min-width: 490px;
-     position: relative;
-     text-align: center;
-     margin:0 auto;
-     width:100%;
- }
- .sectors.invest {
+.sectors.comlist {
+    display: block;
+    min-width: 490px;
+    position: relative;
+    text-align: center;
+    margin: 0 auto;
+    width: 100%;
+}
+.sectors.invest {
     display: inline-block;
     min-width: 490px;
     position: relative;
     text-align: center;
-    margin:0 auto;
-    width:100%;
+    margin: 0 auto;
+    width: 100%;
 }
- 
+
 .sectors.invest .sector {
-    display:inline-block;
-    margin:10px;
+    display: inline-block;
+    margin: 10px;
 }
 
 .st3-1 {
@@ -4387,33 +4386,33 @@ div.efoijwe table td {
 
 .sector .graph {
     border-radius: 40px;
-    height: 25px;    
+    height: 25px;
     font-weight: 600;
     line-height: 13px;
 }
 .sectors.invest .graph.st1-1 span::before {
-    content:'분야별 비율';
+    content: '분야별 비율';
     position: absolute;
-    left:-30px;
+    left: -30px;
     top: 224px;
     font-size: 15px;
     font-weight: 700;
     color: #666666;
 }
 .sectors.invest .graph.st2-1 span::before {
-    content:'조성액';
+    content: '조성액';
     position: absolute;
-    left:-30px;       
+    left: -30px;
     top: 260px;
     font-size: 15px;
     font-weight: 700;
     color: #666666;
- 
+
 }
 .sectors.invest .graph.st3-1 span::before {
-    content:'투자액';
+    content: '투자액';
     position: absolute;
-    left:-30px;
+    left: -30px;
     top: 294px;
     font-size: 15px;
     font-weight: 700;
@@ -4430,150 +4429,364 @@ div.efoijwe table td {
     margin: 0;
     text-align: center;
     font-size: 18px;
-    color:#fff;
+    color: #fff;
     font-weight: 500;
 
 }
-.sector .graph p{
+.sector .graph p {
     display: block;
-    text-align:right;
+    text-align: right;
     font-size: 18px;
     margin-top: -19px;
     padding-right: 5px;
 }
-.sector .graph.st1-1 span {background:#0e656e; animation:st1-1 2s 1;}
-.sector .graph.st1-2 span {background:#18bdc1; animation:st1-2 2s 1;}
-.sector .graph.st1-3 span {background:#99aa3a; animation:st1-3 2s 1;}
-.sector .graph.st1-4 span {background:#fbab38; animation:st1-4 2s 1;}
-.sector .graph.st1-5 span {background:#f05225; animation:st1-5 2s 1;}
-.sector .graph.st1-6 span {background:#981f30; animation:st1-6 2s 1;}
+.sector .graph.st1-1 span {
+    background: #0e656e;
+    animation: st1-1 2s 1;
+}
+.sector .graph.st1-2 span {
+    background: #18bdc1;
+    animation: st1-2 2s 1;
+}
+.sector .graph.st1-3 span {
+    background: #99aa3a;
+    animation: st1-3 2s 1;
+}
+.sector .graph.st1-4 span {
+    background: #fbab38;
+    animation: st1-4 2s 1;
+}
+.sector .graph.st1-5 span {
+    background: #f05225;
+    animation: st1-5 2s 1;
+}
+.sector .graph.st1-6 span {
+    background: #981f30;
+    animation: st1-6 2s 1;
+}
 
 @keyframes st1-1 {
-    0% {width:0; color:rgba(255,255,255,0);}
-    30% {color:rgba(255,255,255,1);}
-    100% {width:38%;}
+    0% {
+        width: 0;
+        color: rgba(255,255,255,0);
+    }
+    30% {
+        color: rgba(255,255,255,1);
+    }
+    100% {
+        width: 38%;
+    }
 }
 @keyframes st1-2 {
-    0% {width:0; color:rgba(255,255,255,0);}
-    30% {color:rgba(255,255,255,1);}
-    100% {width:16.5%;}
+    0% {
+        width: 0;
+        color: rgba(255,255,255,0);
+    }
+    30% {
+        color: rgba(255,255,255,1);
+    }
+    100% {
+        width: 16.5%;
+    }
 }
 @keyframes st1-3 {
-    0% {width:0; color:rgba(255,255,255,0);}
-    30% {color:rgba(255,255,255,1);}
-    100% {width:14.8%;}
+    0% {
+        width: 0;
+        color: rgba(255,255,255,0);
+    }
+    30% {
+        color: rgba(255,255,255,1);
+    }
+    100% {
+        width: 14.8%;
+    }
 }
 @keyframes st1-4 {
-    0% {width:0; color:rgba(255,255,255,0);}
-    30% {color:rgba(255,255,255,1);}
-    100% {width:12.5%;}
+    0% {
+        width: 0;
+        color: rgba(255,255,255,0);
+    }
+    30% {
+        color: rgba(255,255,255,1);
+    }
+    100% {
+        width: 12.5%;
+    }
 }
 @keyframes st1-5 {
-    0% {width:0; color:rgba(255,255,255,0);}
-    30% {color:rgba(255,255,255,1);}
-    100% {width:12%;}
+    0% {
+        width: 0;
+        color: rgba(255,255,255,0);
+    }
+    30% {
+        color: rgba(255,255,255,1);
+    }
+    100% {
+        width: 12%;
+    }
 }
 @keyframes st1-6 {
-    0% {width:0; color:rgba(255,255,255,0);}
-    30% {color:rgba(255,255,255,1);}
-    100% {width:6.1%;}
+    0% {
+        width: 0;
+        color: rgba(255,255,255,0);
+    }
+    30% {
+        color: rgba(255,255,255,1);
+    }
+    100% {
+        width: 6.1%;
+    }
 }
 /* ======== */
-.sector .graph.st2-1{margin-top:10px;}
-.sector .graph.st2-2{margin-top:10px;}
-.sector .graph.st2-3{margin-top:10px;}
-.sector .graph.st2-4{margin-top:10px;}
-.sector .graph.st2-5{margin-top:10px;}
-.sector .graph.st2-6{margin-top:10px;}             
+.sector .graph.st2-1 {
+    margin-top: 10px;
+}
+.sector .graph.st2-2 {
+    margin-top: 10px;
+}
+.sector .graph.st2-3 {
+    margin-top: 10px;
+}
+.sector .graph.st2-4 {
+    margin-top: 10px;
+}
+.sector .graph.st2-5 {
+    margin-top: 10px;
+}
+.sector .graph.st2-6 {
+    margin-top: 10px;
+}
 
-.sector .graph.st2-1 span {background:#0e656e; animation:st2-1 2s 1;}
-.sector .graph.st2-2 span {background:#18bdc1; animation:st2-2 2s 1;}
-.sector .graph.st2-3 span {background:#99aa3a; animation:st2-3 2s 1;}
-.sector .graph.st2-4 span {background:#fbab38; animation:st2-4 2s 1;}
-.sector .graph.st2-5 span {background:#f05225; animation:st2-5 2s 1;}
-.sector .graph.st2-6 span {background:#981f30; animation:st2-6 2s 1;}
+.sector .graph.st2-1 span {
+    background: #0e656e;
+    animation: st2-1 2s 1;
+}
+.sector .graph.st2-2 span {
+    background: #18bdc1;
+    animation: st2-2 2s 1;
+}
+.sector .graph.st2-3 span {
+    background: #99aa3a;
+    animation: st2-3 2s 1;
+}
+.sector .graph.st2-4 span {
+    background: #fbab38;
+    animation: st2-4 2s 1;
+}
+.sector .graph.st2-5 span {
+    background: #f05225;
+    animation: st2-5 2s 1;
+}
+.sector .graph.st2-6 span {
+    background: #981f30;
+    animation: st2-6 2s 1;
+}
 @keyframes st2-1 {
-    0% {width:0; color:rgba(255,255,255,0);}
-    30% {color:rgba(255,255,255,1);}
-    100% {width:100%;} 
+    0% {
+        width: 0;
+        color: rgba(255,255,255,0);
+    }
+    30% {
+        color: rgba(255,255,255,1);
+    }
+    100% {
+        width: 100%;
+    }
 }
 @keyframes st2-2 {
-    0% {width:0; color:rgba(255,255,255,0);}
-    30% {color:rgba(255,255,255,1);}
-    100% {width:100%;}
+    0% {
+        width: 0;
+        color: rgba(255,255,255,0);
+    }
+    30% {
+        color: rgba(255,255,255,1);
+    }
+    100% {
+        width: 100%;
+    }
 }
 @keyframes st2-3 {
-    0% {width:0; color:rgba(255,255,255,0);}
-    30% {color:rgba(255,255,255,1);}
-    100% {width:100%;}
+    0% {
+        width: 0;
+        color: rgba(255,255,255,0);
+    }
+    30% {
+        color: rgba(255,255,255,1);
+    }
+    100% {
+        width: 100%;
+    }
 }
 @keyframes st2-4 {
-    0% {width:0; color:rgba(255,255,255,0);}
-    30% {color:rgba(255,255,255,1);}
-    100% {width:100%;}
+    0% {
+        width: 0;
+        color: rgba(255,255,255,0);
+    }
+    30% {
+        color: rgba(255,255,255,1);
+    }
+    100% {
+        width: 100%;
+    }
 }
 @keyframes st2-5 {
-    0% {width:0; color:rgba(255,255,255,0);}
-    30% {color:rgba(255,255,255,1);}
-    100% {width:100%;}
+    0% {
+        width: 0;
+        color: rgba(255,255,255,0);
+    }
+    30% {
+        color: rgba(255,255,255,1);
+    }
+    100% {
+        width: 100%;
+    }
 }
 @keyframes st2-6 {
-    0% {width:0; color:rgba(255,255,255,0);}
-    30% {color:rgba(255,255,255,1);}
-    100% {width:100%;}
+    0% {
+        width: 0;
+        color: rgba(255,255,255,0);
+    }
+    30% {
+        color: rgba(255,255,255,1);
+    }
+    100% {
+        width: 100%;
+    }
 }
 /* ==== */
-.sector .graph.st3-1 {margin-top:10px;}
-.sector .graph.st3-2 {margin-top:10px;}
-.sector .graph.st3-3 {margin-top:10px;}
-.sector .graph.st3-4 {margin-top:10px;}
-.sector .graph.st3-5 {margin-top:10px;}
-.sector .graph.st3-6 {margin-top:10px;}
+.sector .graph.st3-1 {
+    margin-top: 10px;
+}
+.sector .graph.st3-2 {
+    margin-top: 10px;
+}
+.sector .graph.st3-3 {
+    margin-top: 10px;
+}
+.sector .graph.st3-4 {
+    margin-top: 10px;
+}
+.sector .graph.st3-5 {
+    margin-top: 10px;
+}
+.sector .graph.st3-6 {
+    margin-top: 10px;
+}
 
-.sector .graph.st3-1 span {animation:st3-1 0.2s 1;color:#0e656e;font-weight: 700;font-size: 20px;}
-.sector .graph.st3-2 span {animation:st3-2 0.2s 1;color:#18bdc1;font-weight: 700;font-size: 20px;}
-.sector .graph.st3-3 span {animation:st3-3 0.2s 1;color:#99aa3a;font-weight: 700;font-size: 20px;}
-.sector .graph.st3-4 span {animation:st3-4 0.2s 1;color:#fbab38;font-weight: 700;font-size: 20px;}
-.sector .graph.st3-5 span {animation:st3-5 0.2s 1;color:#f05225;font-weight: 700;font-size: 20px;}
-.sector .graph.st3-6 span {animation:st3-6 0.2s 1;color:#981f30;font-weight: 700;font-size: 20px;}
+.sector .graph.st3-1 span {
+    animation: st3-1 0.2s 1;
+    color: #0e656e;
+    font-weight: 700;
+    font-size: 20px;
+}
+.sector .graph.st3-2 span {
+    animation: st3-2 0.2s 1;
+    color: #18bdc1;
+    font-weight: 700;
+    font-size: 20px;
+}
+.sector .graph.st3-3 span {
+    animation: st3-3 0.2s 1;
+    color: #99aa3a;
+    font-weight: 700;
+    font-size: 20px;
+}
+.sector .graph.st3-4 span {
+    animation: st3-4 0.2s 1;
+    color: #fbab38;
+    font-weight: 700;
+    font-size: 20px;
+}
+.sector .graph.st3-5 span {
+    animation: st3-5 0.2s 1;
+    color: #f05225;
+    font-weight: 700;
+    font-size: 20px;
+}
+.sector .graph.st3-6 span {
+    animation: st3-6 0.2s 1;
+    color: #981f30;
+    font-weight: 700;
+    font-size: 20px;
+}
 @keyframes st3-1 {
-    0% {width:0; color:rgba(255,255,255,0);}
-    30% {color:rgba(255,255,255,1);}
-    100% {width:100%;}
+    0% {
+        width: 0;
+        color: rgba(255,255,255,0);
+    }
+    30% {
+        color: rgba(255,255,255,1);
+    }
+    100% {
+        width: 100%;
+    }
 }
 @keyframes st3-2 {
-    0% {width:0; color:rgba(255,255,255,0);}
-    30% {color:rgba(255,255,255,1);}
-    100% {width:100%;}
+    0% {
+        width: 0;
+        color: rgba(255,255,255,0);
+    }
+    30% {
+        color: rgba(255,255,255,1);
+    }
+    100% {
+        width: 100%;
+    }
 }
 @keyframes st3-3 {
-    0% {width:0; color:rgba(255,255,255,0);}
-    30% {color:rgba(255,255,255,1);}
-    100% {width:100%;}
+    0% {
+        width: 0;
+        color: rgba(255,255,255,0);
+    }
+    30% {
+        color: rgba(255,255,255,1);
+    }
+    100% {
+        width: 100%;
+    }
 }
 @keyframes st3-4 {
-    0% {width:0; color:rgba(255,255,255,0);}
-    30% {color:rgba(255,255,255,1);}
-    100% {width:100%;}
+    0% {
+        width: 0;
+        color: rgba(255,255,255,0);
+    }
+    30% {
+        color: rgba(255,255,255,1);
+    }
+    100% {
+        width: 100%;
+    }
 }
 @keyframes st3-5 {
-    0% {width:0; color:rgba(255,255,255,0);}
-    30% {color:rgba(255,255,255,1);}
-    100% {width:100%;}
+    0% {
+        width: 0;
+        color: rgba(255,255,255,0);
+    }
+    30% {
+        color: rgba(255,255,255,1);
+    }
+    100% {
+        width: 100%;
+    }
 }
 @keyframes st3-6 {
-    0% {width:0; color:rgba(255,255,255,0);}
-    30% {color:rgba(255,255,255,1);}
-    100% {width:100%;}
+    0% {
+        width: 0;
+        color: rgba(255,255,255,0);
+    }
+    30% {
+        color: rgba(255,255,255,1);
+    }
+    100% {
+        width: 100%;
+    }
 }
 
-
-
 .accu1820 {
-    display:block;
+    display: block;
     text-align: right;
     padding-right: 20px;
-    
+
 }
 .accu1820 span {
     display: block;
@@ -4581,109 +4794,206 @@ div.efoijwe table td {
     font-size: 12px;
 }
 
-
 /* companylist */
-.sector .screen{
-    position:relative;
-    overflow:hidden;
+.sector .screen {
+    position: relative;
+    overflow: hidden;
 }
 
 .sector > a:hover .explain-1 {
-    bottom:29%;
+    bottom: 29%;
 }
 
 .sector .explain-1 {
-    position:absolute;
-    bottom:100%;
-    left:5px;
-    z-index:3;
-    color:#fff;
+    position: absolute;
+    bottom: 100%;
+    left: 5px;
+    z-index: 3;
+    color: #fff;
     font-size: 15px;
     font-weight: 700;
-    transition:all .35s;
+    transition: all 0.35s;
 }
 .sector .explain-2 {
-    position:absolute;
-    bottom:29%;
-    left:5px;
-    z-index:2;
-    color:#eeebeb;
+    position: absolute;
+    bottom: 29%;
+    left: 5px;
+    z-index: 2;
+    color: #eeebeb;
     font-size: 15px;
     font-weight: 700;
-    transition:all .35s;
+    transition: all 0.35s;
 }
 .sector > a:hover .explain-2 {
-    color:#fff;
+    color: #fff;
 }
 .sectors > li {
-    display:inline-block;
-    vertical-align:top;
-    margin:20px;
+    display: inline-block;
+    vertical-align: top;
+    margin: 20px;
 }
 
-
-.sector .graph.st4-1 span {background:#0e656e; animation:st4-1 2s 1;}
-.sector .graph.st4-2 span {background:#18bdc1; animation:st4-2 2s 1;}
-.sector .graph.st4-3 span {background:#99aa3a; animation:st4-3 2s 1;}
-.sector .graph.st4-4 span {background:#fbab38; animation:st4-4 2s 1;}
-.sector .graph.st4-5 span {background:#f05225; animation:st4-5 2s 1;}
-.sector .graph.st4-6 span {background:#981f30; animation:st4-6 2s 1;}
-.sector .graph.st4-7 span {background:#46aadd; animation:st4-7 2s 1;}
-.sector .graph.st4-8 span {background:#1cc58c; animation:st4-8 2s 1;}
-.sector .graph.st4-9 span {background:#7474f4; animation:st4-9 2s 1;}
-.sector .graph.st4-10 span {background:#ff7280; animation:st4-10 2s 1;}
+.sector .graph.st4-1 span {
+    background: #0e656e;
+    animation: st4-1 2s 1;
+}
+.sector .graph.st4-2 span {
+    background: #18bdc1;
+    animation: st4-2 2s 1;
+}
+.sector .graph.st4-3 span {
+    background: #99aa3a;
+    animation: st4-3 2s 1;
+}
+.sector .graph.st4-4 span {
+    background: #fbab38;
+    animation: st4-4 2s 1;
+}
+.sector .graph.st4-5 span {
+    background: #f05225;
+    animation: st4-5 2s 1;
+}
+.sector .graph.st4-6 span {
+    background: #981f30;
+    animation: st4-6 2s 1;
+}
+.sector .graph.st4-7 span {
+    background: #46aadd;
+    animation: st4-7 2s 1;
+}
+.sector .graph.st4-8 span {
+    background: #1cc58c;
+    animation: st4-8 2s 1;
+}
+.sector .graph.st4-9 span {
+    background: #7474f4;
+    animation: st4-9 2s 1;
+}
+.sector .graph.st4-10 span {
+    background: #ff7280;
+    animation: st4-10 2s 1;
+}
 
 @keyframes st4-1 {
-    0% {width:0; color:rgba(255,255,255,0);}
-    30% {color:rgba(255,255,255,1);}
-    100% {width:51.3%;}
+    0% {
+        width: 0;
+        color: rgba(255,255,255,0);
+    }
+    30% {
+        color: rgba(255,255,255,1);
+    }
+    100% {
+        width: 51.3%;
+    }
 }
 @keyframes st4-2 {
-    0% {width:0; color:rgba(255,255,255,0);}
-    30% {color:rgba(255,255,255,1);}
-    100% {width:18.1%;}
+    0% {
+        width: 0;
+        color: rgba(255,255,255,0);
+    }
+    30% {
+        color: rgba(255,255,255,1);
+    }
+    100% {
+        width: 18.1%;
+    }
 }
 @keyframes st4-3 {
-    0% {width:0; color:rgba(255,255,255,0);}
-    30% {color:rgba(255,255,255,1);}
-    100% {width:15.6%;}
+    0% {
+        width: 0;
+        color: rgba(255,255,255,0);
+    }
+    30% {
+        color: rgba(255,255,255,1);
+    }
+    100% {
+        width: 15.6%;
+    }
 }
 @keyframes st4-4 {
-    0% {width:0; color:rgba(255,255,255,0);}
-    30% {color:rgba(255,255,255,1);}
-    100% {width:5.8%;}
+    0% {
+        width: 0;
+        color: rgba(255,255,255,0);
+    }
+    30% {
+        color: rgba(255,255,255,1);
+    }
+    100% {
+        width: 5.8%;
+    }
 }
 @keyframes st4-5 {
-    0% {width:0; color:rgba(255,255,255,0);}
-    30% {color:rgba(255,255,255,1);}
-    100% {width:3.5%;}
+    0% {
+        width: 0;
+        color: rgba(255,255,255,0);
+    }
+    30% {
+        color: rgba(255,255,255,1);
+    }
+    100% {
+        width: 3.5%;
+    }
 }
 @keyframes st4-6 {
-    0% {width:0; color:rgba(255,255,255,0);}
-    30% {color:rgba(255,255,255,1);}
-    100% {width:3.2%;}
+    0% {
+        width: 0;
+        color: rgba(255,255,255,0);
+    }
+    30% {
+        color: rgba(255,255,255,1);
+    }
+    100% {
+        width: 3.2%;
+    }
 }
 @keyframes st4-7 {
-    0% {width:0; color:rgba(255,255,255,0);}
-    30% {color:rgba(255,255,255,1);}
-    100% {width:1.5%;}
+    0% {
+        width: 0;
+        color: rgba(255,255,255,0);
+    }
+    30% {
+        color: rgba(255,255,255,1);
+    }
+    100% {
+        width: 1.5%;
+    }
 }
 @keyframes st4-8 {
-    0% {width:0; color:rgba(255,255,255,0);}
-    30% {color:rgba(255,255,255,1);}
-    100% {width:0.7%;}
+    0% {
+        width: 0;
+        color: rgba(255,255,255,0);
+    }
+    30% {
+        color: rgba(255,255,255,1);
+    }
+    100% {
+        width: 0.7%;
+    }
 }
 @keyframes st4-9 {
-    0% {width:0; color:rgba(255,255,255,0);}
-    30% {color:rgba(255,255,255,1);}
-    100% {width:0.2%;}
+    0% {
+        width: 0;
+        color: rgba(255,255,255,0);
+    }
+    30% {
+        color: rgba(255,255,255,1);
+    }
+    100% {
+        width: 0.2%;
+    }
 }
 @keyframes st4-10 {
-    0% {width:0; color:rgba(255,255,255,0);}
-    30% {color:rgba(255,255,255,1);}
-    100% {width:100%;}
+    0% {
+        width: 0;
+        color: rgba(255,255,255,0);
+    }
+    30% {
+        color: rgba(255,255,255,1);
+    }
+    100% {
+        width: 100%;
+    }
 }
-
 
 /*------------------------------------------------------------반응형--------------------------------------*/
 /*------------------------------------------------------------반응형--------------------------------------*/
@@ -4755,7 +5065,6 @@ div.efoijwe table td {
     .selectList.dib .selectbox.mg0 {
         margin-left: 150px;
     }
-
 
 }
 
@@ -4862,7 +5171,7 @@ div.efoijwe table td {
         padding: 0;
         width: 100%;
     }
-    
+
 }
 
 @media (max-width: 1000px) {
@@ -5125,7 +5434,6 @@ div.efoijwe table td {
     article.multi__box .map {
         width: 100%;
     }
-
 
     @media (max-width: 600px) {
         table.cpInfoTable th {
