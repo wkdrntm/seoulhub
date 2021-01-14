@@ -1,0 +1,489 @@
+<!DOCTYPE html>
+<html lang="ko">
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport"
+    content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+
+<head>
+    <meta charset="UTF-8">
+    <title>SEOUL</title>
+    <link type="text/css" rel="stylesheet" href="../css/reset.css" />
+    <link type="text/css" rel="stylesheet" href="../css/datepicker.min.css" />
+    <link type="text/css" rel="stylesheet" href="../css/swiper.min.css" />
+    <link type="text/css" rel="stylesheet" href="../css/ui.css" />
+    <link type="text/css" rel="stylesheet" href="../css/style.css" />
+    <link type="text/css" rel="stylesheet" href="../css/fullcalendar.css" />
+    <link type="text/css" rel="stylesheet" href="../css/responsive.css" />
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+    <style>
+        .swiper-container {
+            width: 100%;
+            height: 300px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .swiper-slide {
+            background-size: cover;
+            background-position: center;
+        }
+
+        .gallery-top {
+            height: 80%;
+            width: 100%;
+        }
+
+        .gallery-thumbs {
+            height: 20%;
+            box-sizing: border-box;
+            padding: 10px 0;
+        }
+
+        .gallery-thumbs .swiper-slide {
+            height: 100%;
+            opacity: 0.4;
+        }
+
+        .gallery-thumbs .swiper-slide-thumb-active {
+            opacity: 1;
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="container">
+        <header>
+		<div class="header__wrap">
+			<h1 class="logo"><a href="main.html"></a></h1>
+			<nav class="gnb">
+				<ul class="main-menu">
+					<li class="menu-item">
+						<a href="sub.html">창업서비스</a>
+						<ul class="menu-sub">
+							<li><a href="sub.html">프로그램 정보</a></li>
+							<li><a href="live.html">입주</a></li>
+							<li><a href="education_schedule.html">교 육</a></li>
+							<li><a href="education_apply.html">액셀러레이팅</a></li>
+							<li><a href="sub1_2.html">멘토링·컨설팅</a></li>
+							<li><a href="education_form.html">창업행사·네트워크</a></li>
+							<li><a href="rental1.html">장소대관</a></li>
+							<li><a href="device.html">장비대여</a></li>
+						</ul>
+					</li>
+					<li class="menu-item">
+						<a href="companyList.html">창업정보</a>
+						<ul class="menu-sub">
+							<li><a href="companyList.html">창업정보</a></li>
+							<li><a href="investinfo1.html">투자정보</a></li>
+							<li><a href="news1.html">News</a></li>
+							<li><a href="reference1.html">자료실</a></li>
+						</ul>
+					</li>
+					<li class="menu-item">
+						<a href="notice1.html">이용알림</a>
+						<ul class="menu-sub">
+							<li><a href="notice1.html">공지사항</a></li>
+							<li><a href="help1.html">플랫폼 이용안내</a></li>
+							<li><a href="survey1.html">설문조사</a></li>
+						</ul>
+					</li>
+					<li class="menu-item">
+						<a href="startup_intro.html">서울창업</a>
+						<ul class="menu-sub">
+							<li><a href="startup_intro.html">창업소개</a></li>
+							<li><a href="rental1.html">창업지원시설</a></li>
+							<li><a href="partner.html">창업 파트너</a></li>
+						</ul>
+					</li>
+				</ul>
+			</nav>
+
+			<div class="header__menu">
+				<a href="sub5_3.html">로그인</a>
+				<a href="mypage1.html">My Page</a>
+				<a href="sub5_1.html">회원가입</a>
+			</div>
+
+			<a href="javascript:mobileMenuOpen()" class="mobile-btn mobile"></a>
+
+		</div>
+</header>
+
+	<nav class="mobile-menu">
+		<div class="mobile-menu-wrap">
+
+			<a href="javascript:mobileMenuClose()" class="close-btn"></a>
+
+			<ul class="depth1">
+				<li>
+					<a href="#none" class="depth1-txt toggle">창업서비스</a>
+					<ul class="depth2">
+						<li><a href="sub.html">프로그램 정보</a></li>
+						<li><a href="live.html">입주</a></li>
+						<li><a href="education_form.html">교 육</a></li>
+						<li><a href="education_apply.html">액셀러레이팅</a></li>
+						<li><a href="education_apply.html">멘토링·컨설팅</a></li>
+						<li><a href="education_form.html">창업행사·네트워크</a></li>
+						<li><a href="rental1.html">장소대관</a></li>
+						<li><a href="device.html">장비대여</a></li>
+					</ul>
+				</li>
+				<li>
+					<a href="#none" class="depth1-txt">창업정보</a>
+					<ul class="depth2">
+						<li><a href="companyList.html">창업정보</a></li>
+						<li><a href="investinfo1.html">투자정보</a></li>
+						<li><a href="news1.html">News</a></li>
+						<li><a href="reference1.html">자료실</a></li>
+					</ul>
+				</li>
+				<li>
+					<a href="#none" class="depth1-txt">이용알림</a>
+					<ul class="depth2">
+						<li><a href="notice1.html">공지사항</a></li>
+						<li><a href="help1.html">플랫폼 이용안내</a></li>
+						<li><a href="survey1.html">설문조사</a></li>
+					</ul>
+				</li>
+				<li>
+					<a href="#none" class="depth1-txt">서울창업</a>
+					<ul class="depth2">
+						<li><a href="startup_intro.html">창업소개</a></li>
+						<li><a href="rental1.html">창업지원시설</a></li>
+						<li><a href="partner.html">창업 파트너</a></li>
+					</ul>
+				</li>
+			</ul>
+
+
+			<div class="mobile__menu__info">
+
+				<div class="menu-box">
+					<a href="sub5_3.html">로그인</a>
+				</div>
+				<div class="menu-box">
+					<a href="mypage1.html">My Page</a>
+				</div>
+				<div class="menu-box">
+					<a href="sub5_1.html">회원가입</a>
+				</div>
+
+			</div>
+		</div>
+	</nav>
+
+
+	<div class="wrapper imgLiveBg">
+
+            <!-- <section class="centerText">
+                <div class="img-box">
+                    <img src="../img/img_live_bg.png" alt="이미지">
+                </div>
+            <h2>Startup Mypage</h2>
+            <h3>스타트업의 꿈을 실현할 수 있는 도시, 서울<br>
+                스타트업의 가치를 더하여 함께 성장합니다.</h3>
+            </section> -->
+            <!-- 헤더배경 -->
+            <section class="sub__page__visual">
+                <div class="img-box">
+                    <img src="../img/img_live_bg6.png" alt="이미지">
+                </div>
+                <div class="centerText">
+                    <h2>Startup Notice</h2>
+                    <h3>스타트업의 꿈을 실현할 수 있는 도시, 서울<br>
+                        스타트업의 가치를 더하여 함께 성장합니다.</h3>
+                </div>
+            </section>
+            <!-- 해더배경끝 -->
+
+            <section class="education">
+
+                <!-- 우측 카테고리 -->
+                <article class="page__tit__info">
+                    <div class="inner relative">
+                        <div class="page__tit">
+                            <span class="tit-txt type4">창업지원시설</span>
+                            <article class="nav__display">
+                                <span class="nav-txt">Home</span>
+                                <span class="nav-txt">서울창업</span>
+                                <span class="nav-txt">창업지원시설</span>
+
+
+                            </article>
+                        </div>
+                    </div>
+                </article>
+                <!-- 우측 카테고리 끝 -->
+                <!-- 탭 -->
+                <article class="page__tabs type5">
+                    <div class="inner">
+                        <div class="tabs__wrap">
+                            <!-- <h2>
+                                <div class="orangeBar"></div>&nbsp&nbsp아이디어룸 공간이음 마우스 오버시 색상변경
+                            </h2> -->
+                            <h2>창업 유관기관의 교육, 행사, 액셀러레이팅 등의 프로그램 · 사업의 홍보물 업로드해 드립니다.
+                            </h2>
+                            <ul>
+                                <li><a href="./help1.html">전체</a></li>
+                                <li><a href="#" class="on">종합보육</a></li>
+                                <li><a href="#">여성창업</a></li>
+                                <li><a href="#">특화산업</a></li>
+                                <li><a href="#">제품사업화</a></li>
+                                <li><a href="#">창업카페</a></li>
+                                <li><a href="#">투자</a></li>
+
+                            </ul>
+                        </div>
+
+                    </div>
+
+                </article>
+                <!-- 탭끝 -->
+                <!-- 본문 -->
+                <article class="mgt35">
+                    <div class="inner fs15" style="min-height:550px;">
+                        <div class="w66 pd050 dib vt">
+                            <div class="orangeMask fs18 bold pd10 caaxx">서울창업허브</div>
+                            <div class="orangeMask dib">
+                                <div class="whiteMask mg10 pd10">
+                                    서울창업허브는 민간 엑셀러레이터 등으로부터 검증된 우수기업을 투자자와 함께 검증 - 선발하고, 창업지원 전문기관인 허브파트너와 함께 육성하여 후속투자
+                                    및
+                                    글로벌
+                                    진출을
+                                    지원합니다.
+                                </div>
+                            </div>
+                            <!-- Swiper -->
+                            <div class="swiper-container gallery-top" style="height:340px">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide" style="background-image:url(../img/place/a1.png)"></div>
+                                    <div class="swiper-slide" style="background-image:url(../img/place/a2.png)"></div>
+                                    <div class="swiper-slide" style="background-image:url(../img/place/a3.png)"></div>
+                                    <div class="swiper-slide" style="background-image:url(../img/place/a4.png)"></div>
+                                    <div class="swiper-slide" style="background-image:url(../img/place/a1.png)"></div>
+                                    <div class="swiper-slide" style="background-image:url(../img/place/a1.png)"></div>
+                                    <div class="swiper-slide" style="background-image:url(../img/place/a1.png)"></div>
+                                    <div class="swiper-slide" style="background-image:url(../img/place/a1.png)"></div>
+                                    <div class="swiper-slide" style="background-image:url(../img/place/a1.png)"></div>
+                                    <div class="swiper-slide" style="background-image:url(../img/place/a1.png)">
+                                    </div>
+                                </div>
+                                <!-- Add Arrows -->
+                                <div class="swiper-button-next swiper-button-white"></div>
+                                <div class="swiper-button-prev swiper-button-white"></div>
+                            </div>
+                            <div class="swiper-container gallery-thumbs" style="height: 80px;">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide" style="background-image:url(../img/place/a1.png)"></div>
+                                    <div class="swiper-slide" style="background-image:url(../img/place/a2.png)"></div>
+                                    <div class="swiper-slide" style="background-image:url(../img/place/a3.png)"></div>
+                                    <div class="swiper-slide" style="background-image:url(../img/place/a4.png)"></div>
+                                    <div class="swiper-slide" style="background-image:url(../img/place/a1.png)"></div>
+                                    <div class="swiper-slide" style="background-image:url(../img/place/a1.png)"></div>
+                                    <div class="swiper-slide" style="background-image:url(../img/place/a1.png)"></div>
+                                    <div class="swiper-slide" style="background-image:url(../img/place/a1.png)"></div>
+                                    <div class="swiper-slide" style="background-image:url(../img/place/a1.png)"></div>
+                                    <div class="swiper-slide" style="background-image:url(../img/place/a1.png)">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="w33 dib vt" style="padding-top: 30px;">
+                            <img src="../img/sampleMap.png" alt="">
+                        </div>
+                        <div class="efoijwe">
+
+                            <table>
+
+                                <tbody>
+                                    <tr>
+                                        <th>
+                                            상세주소
+                                        </th>
+                                        <td colspan="3">
+                                            마포구 백범로 31길 21
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <th>
+                                            연락처
+                                        </th>
+                                        <td colspan="3">
+                                            02-5555-5555
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <th>
+                                            홈페이지
+                                        </th>
+                                        <td colspan="3">
+                                            http://www.seoulstartuphub.com
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <th>
+                                            이용시간
+                                        </th>
+                                        <td colspan="3">
+                                            <p>
+                                                평일 09:00 ~ 21:00<br>
+                                                주말 09:00 ~ 18:00
+                                            </p>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <th rowspan="10">
+                                            운영프로그램 및 서비스
+                                        </th>
+                                        <th class="in1">교육</th>
+                                        <td colspan="2"></td>
+                                    </tr>
+                                    <tr>
+                                        <th class="in1">액셀러레이팅</th>
+                                        <td colspan="2"></td>
+                                    </tr>
+                                    <tr>
+                                        <th class="in1">멘토링 컨설팅</th>
+                                        <td colspan="2"></td>
+                                    </tr>
+                                    <tr>
+                                        <th class="in1">창업행사 네트워크</th>
+                                        <td colspan="2"></td>
+                                    </tr>
+                                    <tr>
+
+                                        <th rowspan="6" class="in1">입주</th>
+                                        <th class="in2">입주기간</th>
+                                        <td>기본 1년 최대 2년 (1년 연장심사) </td>
+                                    </tr>
+                                    <tr>
+
+                                        <th class="in2">입주기간</th>
+                                        <td>기본 1년 최대 2년 (1년 연장심사) </td>
+                                    </tr>
+                                    <tr>
+                                        <th class="in2">기준</th>
+                                        <td>투자 유치 및 글로벌 진출 가능 기업</td>
+                                    </tr>
+                                    <tr>
+                                        <th class="in2">대상</th>
+                                        <td>- 개별사무공간, 기술신용평가보고서, 투자유치 기회제공, 홍보지원(포토폴리오제작, 언론홍보 등)</td>
+                                    </tr>
+                                    <tr>
+                                        <th class="in2">지원내용</th>
+                                        <td>정기/ 상시</td>
+                                    </tr>
+                                    <tr>
+                                        <th class="in2">모집시기</th>
+                                        <td></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </article>
+                <!-- 본문끝 -->
+            </section>
+
+
+            <aside class="floating__menu">
+                <!-- right_side -->
+
+                <ul>
+                    <li><a href="#none" class="type1">입&nbsp&nbsp&nbsp&nbsp주</a></li>
+                    <li><a href="#none" class="type2">교&nbsp&nbsp&nbsp&nbsp육</a></li>
+                    <li><a href="#none" class="type3">장소대관</a></li>
+                    <li><a href="#none" class="type4">장비대여</a></li>
+                </ul>
+                <div class="top-box">
+                    <a href="#">▲ TOP</a>
+                </div>
+
+                <!-- right_side -->
+            </aside>
+
+            <!-- wrapper_end -->
+        </div>
+
+
+        <footer>
+            <div class="footer__wrap inner">
+
+                <div class="footer__logo">
+                    <img src="../img/img_footer_logo.png" alt="이미지">
+                </div>
+
+                <div class="footer__con">
+                    <div class="con-txt">
+                        (04147) 서울특별시 마포구 백범로31길 21 서울창업허브<br />
+                        Tel.02) 222-2222 Fax. 02) 222-2222
+                    </div>
+                    <div class="copyright-txt">
+                        ⓒ Seoul StartupHub. All right reserved.
+                    </div>
+                </div>
+
+                <div class="footer__menu">
+                    <ul>
+                        <li>
+                            <a href="privacyGuide.html" class="">개인정보취급방침</a>
+                        </li>
+                        <li>
+                            <a href="termsConditions.html" class="">이용약관</a>
+                        </li>
+                        <li>
+                            <a href="sitemap.html" class="">사이트맵</a>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+
+        </footer>
+    </div>
+
+    <script src="../js/jquery-3.1.1.min.js"></script>
+    <script src="../js/jquery-ui-1.12.1.js"></script>
+    <script src="../js/ui.js"></script>
+    <!-- <script src="../js/swiperjs.js"></script> -->
+    <script src="../js/datepicker.min.js"></script>
+    <script src="../js/datepicker.ko.js"></script>
+    <script src="../js/moment.min.js"></script>
+    <script src="../js/fullcalendar.min.js"></script>
+    <script src="../js/ko.js"></script>
+
+
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+
+    <script>
+        var galleryThumbs = new Swiper('.gallery-thumbs', {
+            spaceBetween: 10,
+            slidesPerView: 4,
+            loop: true,
+            freeMode: true,
+            loopedSlides: 5, //looped slides should be the same
+            watchSlidesVisibility: true,
+            watchSlidesProgress: true,
+        });
+        var galleryTop = new Swiper('.gallery-top', {
+            spaceBetween: 10,
+            loop: true,
+            loopedSlides: 5, //looped slides should be the same
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+            thumbs: {
+                swiper: galleryThumbs,
+            },
+        });
+    </script>
+</body>
+
+</html>

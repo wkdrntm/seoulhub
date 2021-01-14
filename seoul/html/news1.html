@@ -1,0 +1,473 @@
+<!DOCTYPE html>
+<html lang="ko">
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport"
+    content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+
+<head>
+    <meta charset="UTF-8">
+    <title>SEOUL</title>
+    <link type="text/css" rel="stylesheet" href="../css/reset.css" />
+    <link type="text/css" rel="stylesheet" href="../css/datepicker.min.css" />
+    <link type="text/css" rel="stylesheet" href="../css/swiper.min.css" />
+    <link type="text/css" rel="stylesheet" href="../css/ui.css" />
+    <link type="text/css" rel="stylesheet" href="../css/style.css" />
+    <link type="text/css" rel="stylesheet" href="../css/fullcalendar.css" />
+    <link type="text/css" rel="stylesheet" href="../css/responsive.css" />
+
+
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <div class="header__wrap">
+                <h1 class="logo">
+                    <a href="main.html"></a>
+                </h1>
+                <nav class="gnb">
+                    <ul class="main-menu">
+                        <li class="menu-item">
+                            <a href="">창업서비스</a>
+                            <ul class="menu-sub">
+                                <li>
+                                    <a href="sub.html">프로그램 정보</a>
+                                </li>
+                                <li>
+                                    <a href="live.html">입주</a>
+                                </li>
+                                <li>
+                                    <a href="education_schedule.html">교 육</a>
+                                </li>
+                                <li>
+                                    <a href="education_apply.html">액셀러레이팅</a>
+                                </li>
+                                <li>
+                                    <a href="sub1_2.html">멘토링·컨설팅</a>
+                                </li>
+                                <li>
+                                    <a href="education_form.html">창업행사·네트워크</a>
+                                </li>
+                                <li>
+                                    <a href="rental1.html">장소대관</a>
+                                </li>
+                                <li>
+                                    <a href="device.html">장비대여</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="menu-item">
+                            <a href="">창업정보</a>
+                            <ul class="menu-sub">
+                                <li>
+                                    <a href="companyList.html">창업정보</a>
+                                </li>
+                                <li>
+                                    <a href="investinfo1.html">투자정보</a>
+                                </li>
+                                <li>
+                                    <a href="news1.html">News</a>
+                                </li>
+                                <li>
+                                    <a href="reference1.html">자료실</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="menu-item">
+                            <a href="">이용알림</a>
+                            <ul class="menu-sub">
+                                <li>
+                                    <a href="notice1.html">공지사항</a>
+                                </li>
+                                <li>
+                                    <a href="help1.html">플랫폼 이용안내</a>
+                                </li>
+                                <li>
+                                    <a href="survey1.html">설문조사</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="menu-item">
+                            <a href="">서울창업</a>
+                            <ul class="menu-sub">
+                                <li>
+                                    <a href="startup_intro.html">창업소개</a>
+                                </li>
+                                <li>
+                                    <a href="rental1.html">창업지원시설</a>
+                                </li>
+                                <li>
+                                    <a href="partner.html">창업 파트너</a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </nav>
+
+                <div class="header__menu">
+                    <a href="sub5_3.html">로그인</a>
+                    <a href="mypage1.html">My Page</a>
+                    <a href="sub5_1.html">회원가입</a>
+                </div>
+
+                <a href="javascript:mobileMenuOpen()" class="mobile-btn mobile"></a>
+
+            </div>
+        </header>
+
+        <nav class="mobile-menu">
+            <div class="mobile-menu-wrap">
+
+                <a href="javascript:mobileMenuClose()" class="close-btn"></a>
+
+                <ul class="depth1">
+                    <li>
+                        <a href="#none" class="depth1-txt toggle">창업서비스</a>
+                        <ul class="depth2">
+                            <li>
+                                <a href="sub.html">프로그램 정보</a>
+                            </li>
+                            <li>
+                                <a href="live.html">입주</a>
+                            </li>
+                            <li>
+                                <a href="education_form.html">교 육</a>
+                            </li>
+                            <li>
+                                <a href="education_apply.html">액셀러레이팅</a>
+                            </li>
+                            <li>
+                                <a href="education_apply.html">멘토링·컨설팅</a>
+                            </li>
+                            <li>
+                                <a href="education_form.html">창업행사·네트워크</a>
+                            </li>
+                            <li>
+                                <a href="rental1.html">장소대관</a>
+                            </li>
+                            <li>
+                                <a href="device.html">장비대여</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#none" class="depth1-txt">창업정보</a>
+                        <ul class="depth2">
+                            <li>
+                                <a href="companyList.html">창업정보</a>
+                            </li>
+                            <li>
+                                <a href="investinfo1.html">투자정보</a>
+                            </li>
+                            <li>
+                                <a href="news1.html">News</a>
+                            </li>
+                            <li>
+                                <a href="reference1.html">자료실</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#none" class="depth1-txt">이용알림</a>
+                        <ul class="depth2">
+                            <li>
+                                <a href="notice1.html">공지사항</a>
+                            </li>
+                            <li>
+                                <a href="help1.html">플랫폼 이용안내</a>
+                            </li>
+                            <li>
+                                <a href="survey1.html">설문조사</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#none" class="depth1-txt">서울창업</a>
+                        <ul class="depth2">
+                            <li>
+                                <a href="startup_intro.html">창업소개</a>
+                            </li>
+                            <li>
+                                <a href="rental1.html">창업지원시설</a>
+                            </li>
+                            <li>
+                                <a href="partner.html">창업 파트너</a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+
+                <div class="mobile__menu__info">
+
+                    <div class="menu-box">
+                        <a href="sub5_3.html">로그인</a>
+                    </div>
+                    <div class="menu-box">
+                        <a href="mypage1.html">My Page</a>
+                    </div>
+                    <div class="menu-box">
+                        <a href="sub5_1.html">회원가입</a>
+                    </div>
+
+                </div>
+            </div>
+        </nav>
+
+
+        <div class="wrapper imgLiveBg">
+
+            <!-- <section class="centerText">
+                <div class="img-box">
+                    <img src="../img/img_live_bg.png" alt="이미지">
+                </div>
+            <h2>Startup Mypage</h2>
+            <h3>스타트업의 꿈을 실현할 수 있는 도시, 서울<br>
+                스타트업의 가치를 더하여 함께 성장합니다.</h3>
+            </section> -->
+            <section class="sub__page__visual">
+                <div class="img-box">
+                    <img src="../img/img_news_bg.png" alt="이미지">
+                </div>
+                <div class="centerText">
+                    <h2>Startup Inform</h2>
+                    <h3>스타트업의 꿈을 실현할 수 있는 도시, 서울<br>
+                        스타트업의 가치를 더하여 함께 성장합니다.</h3>
+                </div>
+            </section>
+
+            <section class="education">
+
+                <article class="page__tit__info">
+                    <div class="inner relative">
+                        <div class="page__tit">
+                            <span class="tit-txt type3">News</span>
+                            <article class="nav__display">
+                                <span class="nav-txt">Home</span>
+                                <span class="nav-txt">창업정보</span>
+                                <span class="nav-txt">News</span>
+                            </article>
+                        </div>
+                    </div>
+                </article>
+
+                <article>
+                    <div class="inner">
+                        <div class="rightBox searchBox">
+                            <select name="" id="">
+                                <option value="">선택하세요</option>
+                            </select> &nbsp<input type="text" class="a6Input inputStandard"><button
+                                class="greyBtn dib smallBtn2">검색하기</button>
+                        </div>
+                    </div>
+                </article>
+
+
+
+
+                <article class="table__list type2">
+
+                    <div class="inner">
+                        <div class="refRoomTable">
+                            <table>
+                                <thead>
+                                    <th>No</th>
+                                    <th>제&nbsp&nbsp&nbsp목</th>
+                                    <th>첨부</th>
+                                    <th>등록일</th>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>
+                                            6
+                                        </td>
+                                        <td>
+                                            2020 우수 스타트업 베트남 진출 프로그램 방향 및 방법 설명
+                                        </td>
+                                        <td>
+                                            <a href="../img/pin.png" download><img src="../img/pin.png" alt=""></a>
+                                        </td>
+                                        <td>
+                                            2020.12.27
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            5
+                                        </td>
+                                        <td>
+                                            APP/WEB를 이용한 IoT 서비스 플랫폼 구축 방법 참고사항
+                                        </td>
+                                        <td>
+                                            <a href="../img/pin.png" download><img src="../img/pin.png" alt=""></a>
+                                        </td>
+                                        <td>
+                                            2020.12.26
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            4
+                                        </td>
+                                        <td>
+                                            2021 한중일 청년 스타트업 혁신 창업대회 진행일정 알림
+                                        </td>
+                                        <td>
+                                            <a href="../img/pin.png" download><img src="../img/pin.png" alt=""></a>
+                                        </td>
+                                        <td>
+                                            2020.12.25
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            3
+                                        </td>
+                                        <td>
+                                            2021 창업허브 입주기업 모집 일정방법입니다.
+                                        </td>
+                                        <td>
+                                            <a href="../img/pin.png" download><img src="../img/pin.png" alt=""></a>
+                                        </td>
+                                        <td>
+                                            2020.12.24
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            2
+                                        </td>
+                                        <td>
+
+                                            판로구축을 위한 린스타트업 퍼포먼스 마케팅 전략 특강 강좌 신청 방법 및 진행
+                                        </td>
+                                        <td>
+                                            <a href="../img/pin.png" download><img src="../img/pin.png" alt=""></a>
+                                        </td>
+                                        <td>
+                                            2020.12.23
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            1
+                                        </td>
+                                        <td>
+
+                                            News 사항을 표시하는 곳입니다.
+                                        <td>
+                                            <a href="../img/pin.png" download><img src="../img/pin.png" alt=""></a>
+                                        </td>
+                                        <td>
+                                            2020.12.22
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+
+
+                        <article class="paging">
+                            <ul>
+                                <li class="control left">
+                                    <a href="#none" class="first"></a>
+                                    <a href="#none" class="prev"></a>
+                                </li>
+                                <li><a href="#none" class="num current">1</a></li>
+                                <li><a href="#none" class="num">2</a></li>
+                                <li><a href="#none" class="num">3</a></li>
+                                <li><a href="#none" class="num">4</a></li>
+                                <li><a href="#none" class="num">5</a></li>
+                                <li><a href="#none" class="num">6</a></li>
+                                <li><a href="#none" class="num">7</a></li>
+                                <li><a href="#none" class="num">8</a></li>
+                                <li><a href="#none" class="num">9</a></li>
+                                <li><a href="#none" class="num">10</a></li>
+                                <li class="control right">
+                                    <a href="#none" class="next"></a>
+                                    <a href="#none" class="last"></a>
+                                </li>
+                            </ul>
+                        </article>
+
+                    </div>
+
+
+                </article>
+            </section>
+
+
+            <aside class="floating__menu">
+                <!-- right_side -->
+
+                <ul>
+                    <li><a href="#none" class="type1">입&nbsp&nbsp&nbsp&nbsp주</a></li>
+                    <li><a href="#none" class="type2">교&nbsp&nbsp&nbsp&nbsp육</a></li>
+                    <li><a href="#none" class="type3">장소대관</a></li>
+                    <li><a href="#none" class="type4">장비대여</a></li>
+                </ul>
+                <div class="top-box">
+                    <a href="#" class="">▲ TOP</a>
+                </div>
+
+                <!-- right_side -->
+            </aside>
+
+            <!-- wrapper_end -->
+        </div>
+
+
+        <footer>
+            <div class="footer__wrap inner">
+
+                <div class="footer__logo">
+                    <img src="../img/img_footer_logo.png" alt="이미지">
+                </div>
+
+                <div class="footer__con">
+                    <div class="con-txt">
+                        (04147) 서울특별시 마포구 백범로31길 21 서울창업허브<br />
+                        Tel.02) 222-2222 Fax. 02) 222-2222
+                    </div>
+                    <div class="copyright-txt">
+                        ⓒ Seoul StartupHub. All right reserved.
+                    </div>
+                </div>
+
+                <div class="footer__menu">
+                    <ul>
+                        <li>
+                            <a href="privacyGuide.html" class="">개인정보취급방침</a>
+                        </li>
+                        <li>
+                            <a href="termsConditions.html" class="">이용약관</a>
+                        </li>
+                        <li>
+                            <a href="sitemap.html" class="">사이트맵</a>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+
+        </footer>
+    </div>
+
+    <script src="../js/jquery-3.1.1.min.js"></script>
+    <script src="../js/jquery-ui-1.12.1.js"></script>
+    <script src="../js/ui.js"></script>
+    <script src="../js/swiperjs.js"></script>
+    <script src="../js/datepicker.min.js"></script>
+    <script src="../js/datepicker.ko.js"></script>
+    <script src="../js/moment.min.js"></script>
+    <script src="../js/fullcalendar.min.js"></script>
+    <script src="../js/ko.js"></script>
+
+
+
+
+    
+
+</body>
+
+</html>

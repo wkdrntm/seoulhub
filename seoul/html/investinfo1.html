@@ -1,0 +1,837 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta
+        name="viewport"
+        content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+
+    <head>
+        <meta charset="UTF-8">
+        <title>SEOUL</title>
+        <link type="text/css" rel="stylesheet" href="../css/reset.css"/>
+        <link type="text/css" rel="stylesheet" href="../css/datepicker.min.css"/>
+        <link type="text/css" rel="stylesheet" href="../css/swiper.min.css"/>
+        <link type="text/css" rel="stylesheet" href="../css/ui.css"/>
+        <link type="text/css" rel="stylesheet" href="../css/style.css"/>
+        <link type="text/css" rel="stylesheet" href="../css/fullcalendar.css"/>
+        <link type="text/css" rel="stylesheet" href="../css/responsive.css"/>
+
+    </head>
+
+    <body>
+        <div class="container">
+            <header>
+                <div class="header__wrap">
+                    <h1 class="logo">
+                        <a href="main.html"></a>
+                    </h1>
+                    <nav class="gnb">
+                        <ul class="main-menu">
+                            <li class="menu-item">
+                                <a href="">창업서비스</a>
+                                <ul class="menu-sub">
+                                    <li>
+                                        <a href="sub.html">프로그램 정보</a>
+                                    </li>
+                                    <li>
+                                        <a href="live.html">입주</a>
+                                    </li>
+                                    <li>
+                                        <a href="education_schedule.html">교 육</a>
+                                    </li>
+                                    <li>
+                                        <a href="education_apply.html">액셀러레이팅</a>
+                                    </li>
+                                    <li>
+                                        <a href="sub1_2.html">멘토링·컨설팅</a>
+                                    </li>
+                                    <li>
+                                        <a href="education_form.html">창업행사·네트워크</a>
+                                    </li>
+                                    <li>
+                                        <a href="rental1.html">장소대관</a>
+                                    </li>
+                                    <li>
+                                        <a href="device.html">장비대여</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="menu-item">
+                                <a href="">창업정보</a>
+                                <ul class="menu-sub">
+                                    <li>
+                                        <a href="companyList.html">창업정보</a>
+                                    </li>
+                                    <li>
+                                        <a href="investinfo1.html">투자정보</a>
+                                    </li>
+                                    <li>
+                                        <a href="news1.html">News</a>
+                                    </li>
+                                    <li>
+                                        <a href="reference1.html">자료실</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="menu-item">
+                                <a href="">이용알림</a>
+                                <ul class="menu-sub">
+                                    <li>
+                                        <a href="notice1.html">공지사항</a>
+                                    </li>
+                                    <li>
+                                        <a href="help1.html">플랫폼 이용안내</a>
+                                    </li>
+                                    <li>
+                                        <a href="survey1.html">설문조사</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="menu-item">
+                                <a href="">서울창업</a>
+                                <ul class="menu-sub">
+                                    <li>
+                                        <a href="startup_intro.html">창업소개</a>
+                                    </li>
+                                    <li>
+                                        <a href="rental1.html">창업지원시설</a>
+                                    </li>
+                                    <li>
+                                        <a href="partner.html">창업 파트너</a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </nav>
+
+                    <div class="header__menu">
+                        <a href="sub5_3.html">로그인</a>
+                        <a href="mypage1.html">My Page</a>
+                        <a href="sub5_1.html">회원가입</a>
+                    </div>
+
+                    <a href="javascript:mobileMenuOpen()" class="mobile-btn mobile"></a>
+
+                </div>
+            </header>
+
+            <nav class="mobile-menu">
+                <div class="mobile-menu-wrap">
+
+                    <a href="javascript:mobileMenuClose()" class="close-btn"></a>
+
+                    <ul class="depth1">
+                        <li>
+                            <a href="#none" class="depth1-txt toggle">창업서비스</a>
+                            <ul class="depth2">
+                                <li>
+                                    <a href="sub.html">프로그램 정보</a>
+                                </li>
+                                <li>
+                                    <a href="live.html">입주</a>
+                                </li>
+                                <li>
+                                    <a href="education_form.html">교 육</a>
+                                </li>
+                                <li>
+                                    <a href="education_apply.html">액셀러레이팅</a>
+                                </li>
+                                <li>
+                                    <a href="education_apply.html">멘토링·컨설팅</a>
+                                </li>
+                                <li>
+                                    <a href="education_form.html">창업행사·네트워크</a>
+                                </li>
+                                <li>
+                                    <a href="rental1.html">장소대관</a>
+                                </li>
+                                <li>
+                                    <a href="device.html">장비대여</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#none" class="depth1-txt">창업정보</a>
+                            <ul class="depth2">
+                                <li>
+                                    <a href="companyList.html">창업정보</a>
+                                </li>
+                                <li>
+                                    <a href="investinfo1.html">투자정보</a>
+                                </li>
+                                <li>
+                                    <a href="news1.html">News</a>
+                                </li>
+                                <li>
+                                    <a href="reference1.html">자료실</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#none" class="depth1-txt">이용알림</a>
+                            <ul class="depth2">
+                                <li>
+                                    <a href="notice1.html">공지사항</a>
+                                </li>
+                                <li>
+                                    <a href="help1.html">플랫폼 이용안내</a>
+                                </li>
+                                <li>
+                                    <a href="survey1.html">설문조사</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#none" class="depth1-txt">서울창업</a>
+                            <ul class="depth2">
+                                <li>
+                                    <a href="startup_intro.html">창업소개</a>
+                                </li>
+                                <li>
+                                    <a href="rental1.html">창업지원시설</a>
+                                </li>
+                                <li>
+                                    <a href="partner.html">창업 파트너</a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+
+                    <div class="mobile__menu__info">
+
+                        <div class="menu-box">
+                            <a href="sub5_3.html">로그인</a>
+                        </div>
+                        <div class="menu-box">
+                            <a href="mypage1.html">My Page</a>
+                        </div>
+                        <div class="menu-box">
+                            <a href="sub5_1.html">회원가입</a>
+                        </div>
+
+                    </div>
+                </div>
+            </nav>
+
+            <div class="wrapper imgLiveBg">
+
+                <!-- <section class="centerText"> <div class="img-box"> <img
+                src="../img/img_live_bg.png" alt="이미지"> </div> <h2>Startup Mypage</h2> <h3>스타트업의
+                꿈을 실현할 수 있는 도시, 서울<br> 스타트업의 가치를 더하여 함께 성장합니다.</h3> </section> -->
+                <!-- 헤더배경 -->
+                <section class="sub__page__visual">
+                    <div class="img-box">
+                        <img src="../img/img_live_bg8.png" alt="이미지">
+                    </div>
+                    <div class="centerText">
+                        <h2>Startup Inform</h2>
+                        <h3>스타트업의 꿈을 실현할 수 있는 도시, 서울<br>
+                            스타트업의 가치를 더하여 함께 성장합니다.</h3>
+                    </div>
+                </section>
+                <!-- 해더배경끝 -->
+
+                <section class="education">
+
+                    <!-- 우측 카테고리 -->
+                    <article class="page__tit__info">
+                        <div class="inner relative">
+                            <div class="page__tit">
+                                <span class="tit-txt type2">투자정보</span>
+                                <article class="nav__display">
+                                    <span class="nav-txt">Home</span>
+                                    <span class="nav-txt">창업정보</span>
+                                    <span class="nav-txt">투자정보</span>
+                                    <span class="nav-txt">서울혁신 펀드현황</span>
+
+                                </article>
+                            </div>
+                        </div>
+                    </article>
+                    <!-- 우측 카테고리 끝 -->
+                    <!-- 탭 -->
+                    <article class="page__tabs type6">
+                        <div class="inner">
+                            <div class="tabs__wrap">
+                                <!-- <h2> <div class="orangeBar"></div>&nbsp&nbsp아이디어룸 공간이음 마우스 오버시 색상변경 </h2>
+                                -->
+                                <ul>
+                                    <li>
+                                        <a href="#" class="on ns-bold">서울혁신펀드현황</a>
+                                    </li>
+                                    <li>
+                                        <a href="./investinfo2.html" class="ns-normal">서울투자현황</a>
+                                    </li>
+
+                                </ul>
+                            </div>
+
+                        </div>
+
+                    </article>
+                    <!-- 탭끝 -->
+                    <!-- 본문 -->
+                    <article>
+                        <div class="inner">
+                            <br>
+                            <br>
+                            <br>
+                            <div class="pdt30 pdl45 ">
+                                <div class="dib w50 xaxl">
+                                    <span class="yellowMask fs35 dib bold">6</span>
+                                    <span class="fs35 dib co666 ns-exbold">개</span>&nbsp;
+                                    <span class="fs25 co666 ns-exbold">
+                                        분야
+                                    </span>
+
+                                </div>
+                                <!-- <div class="dib w50 bdld"> -->
+                                <div class="dib w50 xaxl">
+
+                                    <span class="fs25 co666 ns-exbold ">
+                                        총 투자액
+                                    </span>
+                                    <span class="yellowMask fs35 dib bold">298,835,542,960</span>
+                                    <span class="fs25 dib co666 bold">원</span>
+                                </div>
+                            </div>
+
+                            <!-- <div class="colorBox mgt35"> <img src="../img/colorBox.png" alt=""> </div>
+                            -->
+
+                            <div class="sectors invest">
+                                <div class="sector">
+                                    <a>
+                                        <div class="screen">
+                                            <div class="explain-1">▶ 4차 산업혁명</div>
+                                            <img src="../img/sectors/invest/1.png" alt="">
+                                            <div class="explain-2">▶ 4차 산업혁명</div>
+                                        </div>
+                                        <div class="graph st1-1" style="border: #0e656e solid 1px;">
+                                            <span class="sp1" style="width:38%;"></span>
+                                            <p style="color:#0e656e">38%</p>
+                                        </div>
+                                        <div class="graph st2-1" style="border: #0e656e solid 1px;">
+                                            <span>2,094억 원</span>
+                                        </div>
+                                        <div class="graph st3-1">
+                                            <span>1,134.56억 원</span>
+                                        </div>
+                                    </a>
+                                </div>
+
+                                <div class="sector">
+
+                                    <a>
+                                        <div class="screen">
+                                            <div class="explain-1">▶ 문화콘텐츠</div>
+                                            <img src="../img/sectors/invest/2.png" alt="">
+                                            <div class="explain-2">▶ 문화콘텐츠</div>
+                                        </div>
+                                        <div class="graph st1-2" style="border: #18bdc1 solid 1px;">
+                                            <span style="width:16.5%;"></span>
+                                            <p style="color:#18bdc1">16.5%</p>
+                                        </div>
+                                        <div class="graph st2-2" style="border: #18bdc1 solid 1px;">
+                                            <span>1,166억 원</span>
+                                        </div>
+                                        <div class="graph st3-2">
+                                            <span>4,925.2억 원</span>
+                                        </div>
+                                    </a>
+
+                                </div>
+
+                                <div class="sector">
+                                    <a>
+                                        <div class="screen">
+                                            <div class="explain-1">▶ 스마티시티</div>
+                                            <img src="../img/sectors/invest/3.png" alt="">
+                                            <div class="explain-2">▶ 스마티시티</div>
+                                        </div>
+                                        <div class="graph st1-3" style="border: #99aa3a solid 1px;">
+                                            <span style="width:14.8%;"></span>
+                                            <p style="color:#99aa3a">14.8%</p>
+                                        </div>
+                                        <div class="graph st2-3" style="border: #18bdc1 solid 1px;">
+                                            <span>1,375억 원</span>
+                                        </div>
+                                        <div class="graph st3-3">
+                                            <span>443.4억 원</span>
+                                        </div>
+                                    </a>
+
+                                </div>
+
+                                <div class="sector">
+                                    <a>
+                                        <div class="screen">
+                                            <div class="explain-1">▶ 바이오</div>
+                                            <img src="../img/sectors/invest/4.png" alt="">
+                                            <div class="explain-2">▶ 바이오</div>
+                                        </div>
+                                        <div class="graph st1-4" style="border: #fbab38 solid 1px;">
+                                            <span style="width:12.5%;"></span>
+                                            <p style="color:#fbab38">12.5%</p>
+                                        </div>
+                                        <div class="graph st2-4" style="border: #18bdc1 solid 1px;">
+                                            <span>1,580억 원</span>
+                                        </div>
+                                        <div class="graph st3-4">
+                                            <span>375억 원</span>
+                                        </div>
+                                    </a>
+
+                                </div>
+
+                                <div class="sector">
+                                    <a>
+                                        <div class="screen">
+                                            <div class="explain-1">▶ 창업지원</div>
+                                            <img src="../img/sectors/invest/5.png" alt="">
+                                            <div class="explain-2">▶ 창업지원</div>
+                                        </div>
+                                        <div class="graph st1-5" style="border: #f05225 solid 1px;">
+                                            <span style="width:12%;"></span>
+                                            <p style="color:#f05225">12%</p>
+                                        </div>
+                                        <div class="graph st2-5" style="border: #18bdc1 solid 1px;">
+                                            <span>1,465억 원</span>
+                                        </div>
+                                        <div class="graph st3-5">
+                                            <span>359.32억 원</span>
+                                        </div>
+                                    </a>
+
+                                </div>
+                                <div class="sector">
+                                    <a>
+                                        <div class="screen">
+                                            <div class="explain-1">▶ 재도전</div>
+                                            <img src="../img/sectors/invest/6.png" alt="">
+                                            <div class="explain-2">▶ 재도전</div>
+                                        </div>
+                                        <div class="graph st1-6" style="border: #981f30 solid 1px;">
+                                            <span style="width:6.1%;"></span>
+                                            <p style="color:#981f30">6.1%</p>
+                                        </div>
+                                        <div class="graph st2-6" style="border: #18bdc1 solid 1px;">
+                                            <span>400억 원</span>
+                                        </div>
+                                        <div class="graph st3-6">
+                                            <span>183.54억 원</span>
+                                        </div>
+                                    </a>
+
+                                </div>
+
+                                <div class="mgt35 accu1820 bold">
+                                    (2018-2020년 누적)
+                                </div>
+
+                            </div>
+
+                            <div class="bdbd bdtd w100 pdb30 mgt35 xawqf">
+                                <div class="dib w50 pdl45 mgt35">
+                                    <span class="fs25 co666 ns-exbold">
+                                        총 조성액
+                                    </span>
+                                    <span class="ns-exbold">(100%)</span>
+                                    <br>
+                                    <br>
+                                    <div class="blueMask fs35 dib bold">808,050,000,000
+                                    </div>
+                                    <div class="fs25 dib co666 bold">원</div>
+                                </div>
+                                <div class="dib w50 bdld pdl45">
+                                    <span class="fs25 co666 ns-exbold">
+                                        총 투자액
+                                    </span>
+                                    <span class="ns-exbold">(100%)</span>
+                                    <br>
+                                    <br>
+                                    <div class="blueMask fs35 dib bold">298,835,542,960
+                                    </div>
+                                    <div class="fs25 dib co666 bold">원</div>
+                                </div>
+                            </div>
+                            <div class="selectList">
+
+                                <span>연도</span>
+                                <div class="selectbox dib">
+                                    <label for="year">All</label>
+                                    <select name="" id="year">
+                                        <option value="2018">2018년</option>
+                                        <option value="2019">2019년</option>
+                                        <option value="2020">2020년</option>
+                                        <option value="0" selected="selected">All</option>
+                                    </select>
+                                </div>
+                                <span>분류</span>
+                                <div class="selectbox dib">
+                                    <label for="sa1">All</label>
+                                    <select name="" id="sa1">
+                                        <option value="2018">2018년</option>
+                                        <option value="2019">2019년</option>
+                                        <option value="2020">2020년</option>
+                                        <option value="0" selected="selected">All</option>
+                                    </select>
+                                </div>
+                                <span>조합</span>
+                                <div class="selectbox dib">
+                                    <label for="sa2">All</label>
+                                    <select name="" id="sa2">
+                                        <option value="2018">2018년</option>
+                                        <option value="2019">2019년</option>
+                                        <option value="2020">2020년</option>
+                                        <option value="0" selected="selected">All</option>
+                                    </select>
+                                </div>
+                                <span>운영사</span>
+                                <div class="selectbox dib">
+                                    <label for="sa3">All</label>
+                                    <select name="" id="sa3">
+                                        <option value="2018">2018년</option>
+                                        <option value="2019">2019년</option>
+                                        <option value="2020">2020년</option>
+                                        <option value="0" selected="selected">All</option>
+                                    </select>
+                                </div>
+                                <div class="dib cursorPointer">새로고침
+                                    <img style="vertical-align: middle;" src="../img/refresh.png" alt=""></div>
+                            </div>
+                            <div class="copTableBox">
+                                <table>
+                                    <thead>
+                                        <tr>
+                                            <th>출자연도</th>
+                                            <th>분야</th>
+                                            <th>조합명</th>
+                                            <th>운영사</th>
+                                            <th>조성액</th>
+                                            <th>투자액</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>
+                                                2020
+                                            </td>
+                                            <td>4차산업혁명
+
+                                            </td>
+                                            <td>
+                                                퀀텀5G 특화 4차 산업고급기술펀드
+                                            </td>
+                                            <td>
+                                                퀀텀벤처스코리아(주)
+                                            </td>
+                                            <td>
+                                                49,700,000,000
+                                            </td>
+                                            <td>
+                                                2,000,000,000
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                    <tr>
+                                        <td>
+                                            2020
+                                        </td>
+                                        <td>4차산업혁명
+
+                                        </td>
+                                        <td>
+                                            유니온K-콘텐츠 투자조합
+                                        </td>
+                                        <td>
+                                            캠스톤파트너스(주)
+                                        </td>
+                                        <td>
+                                            50,000,000,000
+                                        </td>
+                                        <td>
+                                            24,996,472,754
+                                        </td>
+                                    </tr>
+                                </tbody>
+                                <tr>
+                                    <td>
+                                        2020
+                                    </td>
+                                    <td>문화콘텐츠
+
+                                    </td>
+                                    <td>
+                                        성장금융-2020KIF 서울 4차 산업혁명투자조함
+                                    </td>
+                                    <td>
+                                        유니온투자파트너스(주)
+                                    </td>
+                                    <td>
+                                        30,000,000,000
+                                    </td>
+                                    <td>
+                                        2,000,000,000
+                                    </td>
+                                </tr>
+                            </tbody>
+                            <tr>
+                                <td>
+                                    2020
+                                </td>
+                                <td>문화콘텐츠
+
+                                </td>
+                                <td>
+                                    케이비문화디지털콘텐츠해외진출투자조합
+                                </td>
+                                <td>
+                                    KB인베스트먼트(주)
+                                </td>
+                                <td>
+                                    93,000,000,000
+                                </td>
+                                <td>
+                                    16,876,267,690
+                                </td>
+                            </tr>
+                        </tbody>
+                        <tr>
+                            <td>
+                                2020
+                            </td>
+                            <td>바이오
+
+                            </td>
+                            <td>
+                                KB성장지원펀드
+                            </td>
+                            <td>
+                                (주)LSK인베스트먼트
+                            </td>
+                            <td>
+                                43,000,000,000
+                            </td>
+                            <td>
+                                8,900,000,000
+                            </td>
+                        </tr>
+                    </tbody>
+                    <tr>
+                        <td>
+                            2020
+                        </td>
+                        <td>바이오
+
+                        </td>
+                        <td>
+                            LSK헬스케어2호펀드
+                        </td>
+                        <td>
+                            (주)어니스트벤처스
+                        </td>
+                        <td>
+                            19,000,000,000
+                        </td>
+                        <td>
+                            2,500,000,000
+                        </td>
+                    </tr>
+                </tbody>
+                <tr>
+                    <td>
+                        2020
+                    </td>
+                    <td>스마트시티
+
+                    </td>
+                    <td>
+                        어니스트 스마트시티 제1호 투자조합
+                    </td>
+                    <td>
+                        (주)이앤벤처파트너스
+                    </td>
+                    <td>
+                        20,000,000,000
+                    </td>
+                    <td>
+                        0
+                    </td>
+                </tr>
+            </tbody>
+            <tr>
+                <td>
+                    2020
+                </td>
+                <td>스마트시티
+
+                </td>
+                <td>
+                    이엔벤처3호 스마트 투자조합
+                </td>
+                <td>
+                    코리아에셋투자증권(주)
+                </td>
+                <td>
+                    40,000,000,000
+                </td>
+                <td>
+                    6,900,000,000
+                </td>
+            </tr>
+        </tbody>
+        <tr>
+            <td>
+                2020
+            </td>
+            <td>창업지원
+
+            </td>
+            <td>
+                KAI-KVIC 스마트 공장 투자조합
+            </td>
+            <td>
+                KB인베스트먼트(주)
+            </td>
+            <td>
+                30,000,000,000
+            </td>
+            <td>
+                14,114,039,440
+            </td>
+        </tr>
+    </tbody>
+    <tr>
+        <td>
+            2019
+        </td>
+        <td>창업지원
+
+        </td>
+        <td>
+            KB성장지원펀드
+        </td>
+        <td>
+            (주)이앤벤처파트너스
+        </td>
+        <td>
+            19,000,000,000
+        </td>
+        <td>
+            0
+        </td>
+    </tr>
+</tbody>
+</table>
+</div>
+<div class="centerBox">
+<button class="moreBtn">더보기
+<img src="../img/downArrow.png" alt=""></button>
+</div>
+</div>
+</article>
+<!-- 본문끝 -->
+</section>
+<aside class="floating__menu">
+<!-- right_side -->
+
+<ul>
+<li>
+<a href="#none" class="type1">입&nbsp&nbsp&nbsp&nbsp주</a>
+</li>
+<li>
+<a href="#none" class="type2">교&nbsp&nbsp&nbsp&nbsp육</a>
+</li>
+<li>
+<a href="#none" class="type3">장소대관</a>
+</li>
+<li>
+<a href="#none" class="type4">장비대여</a>
+</li>
+</ul>
+<div class="top-box">
+<a href="#">▲ TOP</a>
+</div>
+
+<!-- right_side -->
+</aside>
+
+<!-- wrapper_end -->
+</div>
+
+<footer>
+<div class="footer__wrap inner">
+
+<div class="footer__logo">
+<img src="../img/img_footer_logo.png" alt="이미지"></div>
+
+<div class="footer__con">
+<div class="con-txt">
+(04147) 서울특별시 마포구 백범로31길 21 서울창업허브<br/>
+Tel.02) 222-2222 Fax. 02) 222-2222
+</div>
+<div class="copyright-txt">
+ⓒ Seoul StartupHub. All right reserved.
+</div>
+</div>
+
+<div class="footer__menu">
+<ul>
+<li>
+<a href="privacyGuide.html" class="">개인정보취급방침</a>
+</li>
+<li>
+<a href="termsConditions.html" class="">이용약관</a>
+</li>
+<li>
+<a href="sitemap.html" class="">사이트맵</a>
+</li>
+</ul>
+</div>
+
+</div>
+
+</footer>
+</div>
+
+<script src="../js/jquery-3.1.1.min.js"></script>
+<script src="../js/jquery-ui-1.12.1.js"></script>
+<script src="../js/ui.js"></script>
+<script src="../js/swiperjs.js"></script>
+<script src="../js/datepicker.min.js"></script>
+<script src="../js/datepicker.ko.js"></script>
+<script src="../js/moment.min.js"></script>
+<script src="../js/fullcalendar.min.js"></script>
+<script src="../js/ko.js"></script>
+
+<script>
+var swiper = new Swiper('.swiper-container', {
+navigation: {
+nextEl: '.swiper-button-next',
+prevEl: '.swiper-button-prev'
+}
+});
+$(document).ready(function () {
+var selectTarget = $('.selectbox select');
+
+selectTarget.on('blur', function () {
+$(this)
+.parent()
+.removeClass('focus');
+});
+
+selectTarget.change(function () {
+var select_name = $(this)
+.children('option:selected')
+.text();
+
+$(this)
+.siblings('label')
+.text(select_name);
+});
+});
+</script>
+
+</body></html>

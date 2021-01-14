@@ -1,0 +1,599 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta
+        name="viewport"
+        content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+
+    <head>
+        <meta charset="UTF-8">
+        <title>SEOUL</title>
+        <link type="text/css" rel="stylesheet" href="../css/reset.css"/>
+        <link type="text/css" rel="stylesheet" href="../css/datepicker.min.css"/>
+        <link type="text/css" rel="stylesheet" href="../css/swiper.min.css"/>
+        <link type="text/css" rel="stylesheet" href="../css/ui.css"/>
+        <link type="text/css" rel="stylesheet" href="../css/style.css"/>
+        <link type="text/css" rel="stylesheet" href="../css/fullcalendar.css"/>
+        <link type="text/css" rel="stylesheet" href="../css/responsive.css"/>
+
+    </head>
+
+    <body>
+        <div class="container">
+            <header>
+            <div class="header__wrap">
+                <h1 class="logo">
+                    <a href="main.html"></a>
+                </h1>
+                <nav class="gnb">
+                    <ul class="main-menu">
+                        <li class="menu-item">
+                            <a href="">창업서비스</a>
+                            <ul class="menu-sub">
+                                <li>
+                                    <a href="sub.html">프로그램 정보</a>
+                                </li>
+                                <li>
+                                    <a href="live.html">입주</a>
+                                </li>
+                                <li>
+                                    <a href="education_schedule.html">교 육</a>
+                                </li>
+                                <li>
+                                    <a href="education_apply.html">액셀러레이팅</a>
+                                </li>
+                                <li>
+                                    <a href="sub1_2.html">멘토링·컨설팅</a>
+                                </li>
+                                <li>
+                                    <a href="education_form.html">창업행사·네트워크</a>
+                                </li>
+                                <li>
+                                    <a href="rental1.html">장소대관</a>
+                                </li>
+                                <li>
+                                    <a href="device.html">장비대여</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="menu-item">
+                            <a href="">창업정보</a>
+                            <ul class="menu-sub">
+                                <li>
+                                    <a href="companyList.html">창업정보</a>
+                                </li>
+                                <li>
+                                    <a href="investinfo1.html">투자정보</a>
+                                </li>
+                                <li>
+                                    <a href="news1.html">News</a>
+                                </li>
+                                <li>
+                                    <a href="reference1.html">자료실</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="menu-item">
+                            <a href="">이용알림</a>
+                            <ul class="menu-sub">
+                                <li>
+                                    <a href="notice1.html">공지사항</a>
+                                </li>
+                                <li>
+                                    <a href="help1.html">플랫폼 이용안내</a>
+                                </li>
+                                <li>
+                                    <a href="survey1.html">설문조사</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="menu-item">
+                            <a href="">서울창업</a>
+                            <ul class="menu-sub">
+                                <li>
+                                    <a href="startup_intro.html">창업소개</a>
+                                </li>
+                                <li>
+                                    <a href="rental1.html">창업지원시설</a>
+                                </li>
+                                <li>
+                                    <a href="partner.html">창업 파트너</a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </nav>
+
+                <div class="header__menu">
+                    <a href="sub5_3.html">로그인</a>
+                    <a href="mypage1.html">My Page</a>
+                    <a href="sub5_1.html">회원가입</a>
+                </div>
+
+                <a href="javascript:mobileMenuOpen()" class="mobile-btn mobile"></a>
+
+            </div>
+        </header>
+
+        <nav class="mobile-menu">
+            <div class="mobile-menu-wrap">
+
+                <a href="javascript:mobileMenuClose()" class="close-btn"></a>
+
+                <ul class="depth1">
+                    <li>
+                        <a href="#none" class="depth1-txt toggle">창업서비스</a>
+                        <ul class="depth2">
+                            <li>
+                                <a href="sub.html">프로그램 정보</a>
+                            </li>
+                            <li>
+                                <a href="live.html">입주</a>
+                            </li>
+                            <li>
+                                <a href="education_form.html">교 육</a>
+                            </li>
+                            <li>
+                                <a href="education_apply.html">액셀러레이팅</a>
+                            </li>
+                            <li>
+                                <a href="education_apply.html">멘토링·컨설팅</a>
+                            </li>
+                            <li>
+                                <a href="education_form.html">창업행사·네트워크</a>
+                            </li>
+                            <li>
+                                <a href="rental1.html">장소대관</a>
+                            </li>
+                            <li>
+                                <a href="device.html">장비대여</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#none" class="depth1-txt">창업정보</a>
+                        <ul class="depth2">
+                            <li>
+                                <a href="companyList.html">창업정보</a>
+                            </li>
+                            <li>
+                                <a href="investinfo1.html">투자정보</a>
+                            </li>
+                            <li>
+                                <a href="news1.html">News</a>
+                            </li>
+                            <li>
+                                <a href="reference1.html">자료실</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#none" class="depth1-txt">이용알림</a>
+                        <ul class="depth2">
+                            <li>
+                                <a href="notice1.html">공지사항</a>
+                            </li>
+                            <li>
+                                <a href="help1.html">플랫폼 이용안내</a>
+                            </li>
+                            <li>
+                                <a href="survey1.html">설문조사</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#none" class="depth1-txt">서울창업</a>
+                        <ul class="depth2">
+                            <li>
+                                <a href="startup_intro.html">창업소개</a>
+                            </li>
+                            <li>
+                                <a href="rental1.html">창업지원시설</a>
+                            </li>
+                            <li>
+                                <a href="partner.html">창업 파트너</a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+
+                <div class="mobile__menu__info">
+
+                    <div class="menu-box">
+                        <a href="sub5_3.html">로그인</a>
+                    </div>
+                    <div class="menu-box">
+                        <a href="mypage1.html">My Page</a>
+                    </div>
+                    <div class="menu-box">
+                        <a href="sub5_1.html">회원가입</a>
+                    </div>
+
+                </div>
+            </div>
+        </nav>
+
+            <div class="wrapper imgLiveBg">
+
+                <!-- <section class="centerText"> <div class="img-box"> <img
+                src="../img/img_live_bg.png" alt="이미지"> </div> <h2>Startup Mypage</h2> <h3>스타트업의
+                꿈을 실현할 수 있는 도시, 서울<br> 스타트업의 가치를 더하여 함께 성장합니다.</h3> </section> -->
+                <section class="sub__page__visual">
+                    <div class="img-box">
+                        <img src="../img/4_1-1.png" alt="이미지">
+                    </div>
+                    <div class="centerText">
+                        <h2>Startup Seoul</h2>
+                        <h3>스타트업의 꿈을 실현할 수 있는 도시, 서울<br>
+                            스타트업의 가치를 더하여 함께 성장합니다.</h3>
+                    </div>
+                </section>
+
+                <section class="startup_intro">
+
+                    <article class="page__tit__info">
+                        <div class="inner relative">
+                            <div class="page__tit">
+                                <span class="tit-txt type6">창업소개</span>
+                                <article class="nav__display">
+                                    <span class="nav-txt">Home</span>
+                                    <span class="nav-txt">서울창업</span>
+                                    <span class="nav-txt">창업소개</span>
+                                </article>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="page__tabs type2 orange">
+                        <div class="inner">
+                            <div class="tabs__wrap">
+                                <ul>
+                                    <li>
+                                        <a href="#none" class="on">전체</a>
+                                    </li>
+                                    <li>
+                                        <a href="#none" class="">종합보육</a>
+                                    </li>
+                                    <li>
+                                        <a href="#none" class="">여성창업</a>
+                                    </li>
+                                    <li>
+                                        <a href="#none" class="">특화산업</a>
+                                    </li>
+                                    <li>
+                                        <a href="#none" class="">제품사업화</a>
+                                    </li>
+                                    <li>
+                                        <a href="#none" class="">창업카페</a>
+                                    </li>
+                                    <li>
+                                        <a href="#none" class="">투자</a>
+                                    </li>
+
+                                </ul>
+                            </div>
+                        </div>
+
+                    </article>
+
+                    <article class="multi__box">
+                        <div class="inner relative">
+                            <div class="multibox_fa">
+                                <div class="multibox">
+                                    <ul>
+                                        <li>
+                                            <a href="#none" class="on">서울창업허브</a>
+                                            <p>+</p>
+                                        </li>
+                                        <li>
+                                            <a href="#none" class="">서울글로벌창업센터</a>
+                                            <p>+</p>
+                                        </li>
+                                        <li>
+                                            <a href="#none" class="">서울창업디딤터</a>
+                                            <p>+</p>
+                                        </li>
+                                        <li>
+                                            <a href="#none" class="">서울게임콘텐츠센터</a>
+                                            <p>+</p>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="multibox">
+                                    <ul>
+                                        <li>
+                                            <a href="#none" class="">남부여성발전센터</a>
+                                            <p>+</p>
+                                        </li>
+                                        <li>
+                                            <a href="#none" class="">서울먹거리창업센터</a>
+                                            <p>+</p>
+                                        </li>
+                                        <li>
+                                            <a href="#none" class="">서울창업성장센터</a>
+                                            <p>+</p>
+                                        </li>
+                                        <li>
+                                            <a href="#none" class="">서울엡비즈니스센터</a>
+                                            <p>+</p>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="multibox">
+                                    <ul>
+                                        <li>
+                                            <a href="#none" class="">동부여성발전센터</a>
+                                            <p>+</p>
+                                        </li>
+                                        <li>
+                                            <a href="#none" class="">서울파트너스하우스</a>
+                                            <p>+</p>
+                                        </li>
+                                        <li>
+                                            <a href="#none" class="">서울바이오허브</a>
+                                            <p>+</p>
+                                        </li>
+                                        <li>
+                                            <a href="#none" class="">서울핀테크랩</a>
+                                            <p>+</p>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="multibox">
+                                    <ul>
+                                        <li>
+                                            <a href="#none" class="">북부여성발전센터</a>
+                                            <p>+</p>
+                                        </li>
+                                        <li>
+                                            <a href="#none" class="">서울시여성창업플라자</a>
+                                            <p>+</p>
+                                        </li>
+                                        <li>
+                                            <a href="#none" class="">서울패션창작스튜디오</a>
+                                            <p>+</p>
+                                        </li>
+                                        <li>
+                                            <a href="#none" class="">서울글로벌비즈니스</a>
+                                            <p>+</p>
+                                        </li>
+                                    </ul>
+                                </div>
+
+                            </div>
+                            <div id='map' class="map"></div>
+                            <script
+                                type="text/javascript"
+                                src="//dapi.kakao.com/v2/maps/sdk.js?appkey=72eeebce838e0a8448dfcfc809258688"></script>
+
+                            <script>
+                                var mapContainer = document.getElementById('map'), // 지도를 표시할 div
+                                    mapOption = {
+                                        center: new kakao
+                                            .maps
+                                            .LatLng(37.5474524609658, 126.950591527572), //지도의 중심좌표.
+                                        level: 9 // 지도의 확대 레벨
+                                    };
+
+                                var map = new kakao
+                                    .maps
+                                    .Map(mapContainer, mapOption); // 지도를 생성합니다
+
+                                // 마커를 표시할 위치와 title 객체 배열입니다
+                                var positions = [
+                                    {
+                                        title: '서울창업허브',
+                                        latlng: new kakao
+                                            .maps
+                                            .LatLng(37.5474524609658, 126.950591527572) //지도의 중심좌표.
+                                    }, {
+                                        title: '서울글로벌창업센터',
+                                        latlng: new kakao
+                                            .maps
+                                            .LatLng(37.5336766816291, 126.963363198566)
+                                    }, {
+                                        title: '서울창업디딤터',
+                                        latlng: new kakao
+                                            .maps
+                                            .LatLng(37.6201739154268, 127.076936195632)
+                                    }, {
+                                        title: '서울게임콘텐츠센터',
+                                        latlng: new kakao
+                                            .maps
+                                            .LatLng(37.5757269662412, 126.889972593033)
+
+                                    }, {
+                                        title: '남부여성발전센터',
+                                        latlng: new kakao
+                                            .maps
+                                            .LatLng(37.4632181622148, 126.905642339277)
+                                    }, {
+                                        title: '서울먹거리창업센터',
+                                        latlng: new kakao
+                                            .maps
+                                            .LatLng(37.5345959427598, 127.138116623963)
+                                    }, {
+                                        title: '서울창업성장센터',
+                                        latlng: new kakao
+                                            .maps
+                                            .LatLng(37.6010718366367, 127.045340797497)
+
+                                    }, {
+                                        title: '서울앱비즈니스센터',
+                                        latlng: new kakao
+                                            .maps
+                                            .LatLng(37.5438726245303, 127.061297770805)
+                                    }, {
+                                        title: '동부여성발전센터',
+                                        latlng: new kakao
+                                            .maps
+                                            .LatLng(37.5394028008357, 127.066717912956)
+                                    }, {
+                                        title: '서울파트너하우스',
+                                        latlng: new kakao
+                                            .maps
+                                            .LatLng(37.540823059586, 127.004705055306)
+
+                                    }, {
+                                        title: '서울바이오허브',
+                                        latlng: new kakao
+                                            .maps
+                                            .LatLng(37.5924042064982, 127.04917672889)
+
+                                    }, {
+                                        title: '서울핀테크랩',
+                                        latlng: new kakao
+                                            .maps
+                                            .LatLng(37.5233667660094, 126.923451000009)
+
+                                    }, {
+                                        title: '북부여성발전센터',
+                                        latlng: new kakao
+                                            .maps
+                                            .LatLng(37.6428268392155, 127.06128460568)
+
+                                    }, {
+                                        title: '서울파트너하우스',
+                                        latlng: new kakao
+                                            .maps
+                                            .LatLng(37.540823059586, 127.004705055306)
+
+                                    }, {
+                                        title: '서울시여성창업플라자',
+                                        latlng: new kakao
+                                            .maps
+                                            .LatLng(37.4905591586176, 127.055112149675)
+
+                                    }, {
+                                        title: '서울패션창작스튜디오',
+                                        latlng: new kakao
+                                            .maps
+                                            .LatLng(37.5672655578674, 127.012111462314)
+
+                                    }, {
+                                        title: '서울글로벌비즈니스(강남)',
+                                        latlng: new kakao
+                                            .maps
+                                            .LatLng(37.5118239121138, 127.059159043842)
+
+                                    }
+                                    
+
+                                ];
+
+                                // 마커 이미지의 이미지 주소입니다
+                                var imageSrc = "https://t1.daumcdn.net/localimg/localimages/07/mapapidoc/markerStar.png";
+
+                                for (var i = 0; i < positions.length; i++) {
+
+                                    // 마커 이미지의 이미지 크기 입니다
+                                    var imageSize = new kakao
+                                        .maps
+                                        .Size(24, 35);
+
+                                    // 마커 이미지를 생성합니다
+                                    var markerImage = new kakao
+                                        .maps
+                                        .MarkerImage(imageSrc, imageSize);
+
+                                    // 마커를 생성합니다
+                                    var marker = new kakao
+                                        .maps
+                                        .Marker({
+                                            map: map, // 마커를 표시할 지도
+                                            position: positions[i].latlng, // 마커를 표시할 위치
+                                            title: positions[i].title, // 마커의 타이틀, 마커에 마우스를 올리면 타이틀이 표시됩니다
+                                            image: markerImage // 마커 이미지
+                                        });
+                                }
+                            </script>
+
+                        </div>
+
+                    </article>
+
+                </section>
+
+                <aside class="floating__menu">
+                    <!-- right_side -->
+
+                    <ul>
+                        <li>
+                            <a href="#nonenone" class="type1">입&nbsp&nbsp&nbsp&nbsp주</a>
+                        </li>
+                        <li>
+                            <a href="#nonenone" class="type2">교&nbsp&nbsp&nbsp&nbsp육</a>
+                        </li>
+                        <li>
+                            <a href="#nonenone" class="type3">장소대관</a>
+                        </li>
+                        <li>
+                            <a href="#nonenone" class="type4">장비대여</a>
+                        </li>
+                    </ul>
+                    <div class="top-box">
+                        <a href="#none" class="">▲ TOP</a>
+                    </div>
+
+                    <!-- right_side -->
+                </aside>
+
+                <!-- wrapper_end -->
+            </div>
+
+            <footer>
+                <div class="footer__wrap inner">
+
+                    <div class="footer__logo">
+                        <img src="../img/img_footer_logo.png" alt="이미지">
+                    </div>
+
+                    <div class="footer__con">
+                        <div class="con-txt">
+                            (04147) 서울특별시 마포구 백범로31길 21 서울창업허브<br/>
+                            Tel.02) 222-2222 Fax. 02) 222-2222
+                        </div>
+                        <div class="copyright-txt">
+                            ⓒ Seoul StartupHub. All right reserved.
+                        </div>
+                    </div>
+
+                    <div class="footer__menu">
+                    <ul>
+                        <li>
+                            <a href="privacyGuide.html" class="">개인정보취급방침</a>
+                        </li>
+                        <li>
+                            <a href="termsConditions.html" class="">이용약관</a>
+                        </li>
+                        <li>
+                            <a href="sitemap.html" class="">사이트맵</a>
+                        </li>
+                    </ul>
+                </div>
+
+                </div>
+
+            </footer>
+        </div>
+
+        <script src="../js/jquery-3.1.1.min.js"></script>
+        <script src="../js/jquery-ui-1.12.1.js"></script>
+        <script src="../js/ui.js"></script>
+        <script src="../js/swiperjs.js"></script>
+        <script src="../js/datepicker.min.js"></script>
+        <script src="../js/datepicker.ko.js"></script>
+        <script src="../js/moment.min.js"></script>
+        <script src="../js/fullcalendar.min.js"></script>
+        <script src="../js/ko.js"></script>
+
+        <script>
+            document
+                .getElementById('afterDate')
+                .valueAsDate = new Date();
+        </script>
+
+    </body>
+
+</html>

@@ -1,0 +1,232 @@
+.privacy {
+    /* font-size: 8px; */
+    width: 100%;
+    height: 2700px;
+    /* overflow: hidden; */
+    /* border: 10px; */
+    /* border-color: red; */
+    /* margin: 200 200; */
+    text-align:left
+}
+textarea {
+    resize: none;
+}
+
+.img-box img {
+    position: relative;
+}
+
+.sub_page_tit {
+    position: absolute;
+    top: 260px;
+    left: 420px;
+    font-size: 70px;
+    line-height: 65px;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Barlow";
+    text-align: right;
+    filter: drop-shadow(0 0 6.5px rgba(0,0,0,0.63));
+}
+.sub_page_tit2 {
+    position: absolute;
+    top: 340px;
+    left: 420px;
+    font-size: 21px;
+    line-height: 25px;
+    color: #ffffff;
+    font-family: "Noto Sans CJ Kkr";
+    text-align: right;
+    filter: drop-shadow(0 0 5px rgba(0,0,0,0.8));
+}
+.signup_section {
+
+    margin-bottom: 42px;
+    width: 100%;
+}
+.signup_section .sub_tit {
+    font-size: 15px;
+    line-height: 48px;
+    color: #666666;
+}
+.signup_section .sub_tit.title1 {
+    font-size: 25px;
+    line-height: 48px;
+    color: #666666;
+}
+.signup_section .sub_tit.title2 {
+    font-size: 25px;
+    line-height: 48px;
+    color: #666666;
+}
+.signup_section .sub_tit.title1::before {
+    content:'';
+    padding: 3px 3px 5px 3px;
+    font-size:20px;
+    background-color: #4283e1;
+    margin-right: 10px;
+    
+}
+.signup_section .sub_tit.title2::before {
+    content:'';
+    padding: 3px 3px 5px 3px;
+    font-size:20px;
+    background-color: #fbaa2c;
+    margin-right: 10px;
+    
+}
+.signup_section .submit {
+    width: 100%;
+    padding: 25px 30px 18px ;
+    background-color: #fafafa;
+}
+.signup_section .signup_box {
+    font-size: 16px;
+    line-height: 24px;
+    color: #666666;
+    overflow-y: scroll;
+    height: 300px;
+    background-color: #ffffff;
+}
+
+.signup_section .checkbox {
+    margin-left: -12px;
+    margin-right: 10px;
+    margin-top: 30px;
+}
+.signup_sections input {
+    margin-left: 30px;
+}
+.submit_table {
+    width: 100%;
+    font-size: 15px;
+    line-height: 39px;
+    color: #666666;
+    margin-bottom: 35px;
+}
+.submit_table td:nth-child(1) {
+    text-align: center;
+    background-color: #f6f9fd;
+    border: 1px solid #ddd;
+    border-left: none;
+    width: 210px;
+}
+.submit_table td:nth-child(2) {
+    border: 1px solid #ddd;
+    margin-left: 40px;
+    border-right: none;
+
+}
+.submit_table button {
+    font-size: 16px;
+    line-height: 18px;
+    color: #f7f7f7;
+    background-color: #fb5050;
+    border: none;
+    padding: 6px 15px;
+    border-radius: 5px;
+    text-align: center;
+    margin-left: 20px;
+}
+.submit_table select {
+    margin-left: 30px !important;
+}
+.submit_table input {
+    margin-left: 30px;
+    padding: 10px 5px;
+    height: 28px;
+    background-color: #ffffff;
+    border: 1px solid #989898;
+}
+.submit_table input:placeholder-shown {
+    font-size: 15px;
+    line-height: 48px;
+    color: #dfdfdf;
+    margin-right: 15px;
+}
+.btn {
+    text-align: center;
+    margin-left: calc(50% - 100px);
+}
+.btn button {
+    font-size: 16px;
+    line-height: 11px;
+    color: #f7f7f7;
+    text-align: center;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+.btn .black_btn {
+    background-image: url("../img/black_btn.png");
+    background-size: cover;
+    background-position: center;
+}
+.btn .blue_btn {
+    background-image: url("../img/blue_btn.png");
+    background-size: cover;
+    background-position: center;
+}
+.complete {
+    padding-top: 65px;
+    padding-bottom: 55px;
+    text-align: center;
+    height: 270px;
+}
+.complete img {
+    margin-bottom: 28px;
+}
+.complete div {
+    font-size: 35px;
+    line-height: 26px;
+    color: #4283e1;
+    margin-bottom: 15px;
+}
+.complete p {
+    font-size: 15px;
+    line-height: 26px;
+    color: #666666;
+}
+.notice {
+    background-image: url("../img/bg.png");
+    width: 100%;
+    min-height: 108px;
+    padding: 20px 0 0 150px;
+    font-size: 15px;
+    line-height: 30px;
+    color: #666666;
+}
+.notice span {
+    color: #4283e1;
+    font-weight: 500;
+}
+@media (max-width: 1024px) {
+    input {
+        max-width: 180px;
+    }
+    .notice {
+        background-image: none;
+        padding-left: 0;
+
+    }
+    .submit {
+        padding-right: 20px !important;
+    }
+    .submit_table td:nth-child(1) {
+        width: 130px;
+    }
+    .submit_table tr:nth-child(1) input:nth-child(2),
+    input:nth-child(3),
+    select {
+        width: 80px !important;
+    }
+    .btn {
+        margin-bottom: 30px !important;
+
+    }
+    .sub_page_tit,
+    .sub_page_tit2 {
+        display: none;
+    }
+}

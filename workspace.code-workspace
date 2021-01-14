@@ -1,8 +1,7 @@
 {
-	"folders": [
-		{
-			"name": "seoul_hub",
-			"path": "."
-		}
-	]
+    "folders": [
+        {
+            "path": "seoul"
+        }
+    ]
 }

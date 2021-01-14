@@ -1,0 +1,471 @@
+<!DOCTYPE html>
+<html lang="ko">
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport"
+    content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+
+<head>
+    <meta charset="UTF-8">
+    <title>SEOUL</title>
+    <link type="text/css" rel="stylesheet" href="../css/reset.css" />
+    <link type="text/css" rel="stylesheet" href="../css/datepicker.min.css" />
+    <link type="text/css" rel="stylesheet" href="../css/swiper.min.css" />
+    <link type="text/css" rel="stylesheet" href="../css/ui.css" />
+    <link type="text/css" rel="stylesheet" href="../css/style.css" />
+    <link type="text/css" rel="stylesheet" href="../css/fullcalendar.css" />
+    <link type="text/css" rel="stylesheet" href="../css/responsive.css" />
+
+
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <div class="header__wrap">
+                <h1 class="logo">
+                    <a href="main.html"></a>
+                </h1>
+                <nav class="gnb">
+                    <ul class="main-menu">
+                        <li class="menu-item">
+                            <a href="">창업서비스</a>
+                            <ul class="menu-sub">
+                                <li>
+                                    <a href="sub.html">프로그램 정보</a>
+                                </li>
+                                <li>
+                                    <a href="live.html">입주</a>
+                                </li>
+                                <li>
+                                    <a href="education_schedule.html">교 육</a>
+                                </li>
+                                <li>
+                                    <a href="education_apply.html">액셀러레이팅</a>
+                                </li>
+                                <li>
+                                    <a href="sub1_2.html">멘토링·컨설팅</a>
+                                </li>
+                                <li>
+                                    <a href="education_form.html">창업행사·네트워크</a>
+                                </li>
+                                <li>
+                                    <a href="rental1.html">장소대관</a>
+                                </li>
+                                <li>
+                                    <a href="device.html">장비대여</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="menu-item">
+                            <a href="">창업정보</a>
+                            <ul class="menu-sub">
+                                <li>
+                                    <a href="companyList.html">창업정보</a>
+                                </li>
+                                <li>
+                                    <a href="investinfo1.html">투자정보</a>
+                                </li>
+                                <li>
+                                    <a href="news1.html">News</a>
+                                </li>
+                                <li>
+                                    <a href="reference1.html">자료실</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="menu-item">
+                            <a href="">이용알림</a>
+                            <ul class="menu-sub">
+                                <li>
+                                    <a href="notice1.html">공지사항</a>
+                                </li>
+                                <li>
+                                    <a href="help1.html">플랫폼 이용안내</a>
+                                </li>
+                                <li>
+                                    <a href="survey1.html">설문조사</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="menu-item">
+                            <a href="">서울창업</a>
+                            <ul class="menu-sub">
+                                <li>
+                                    <a href="startup_intro.html">창업소개</a>
+                                </li>
+                                <li>
+                                    <a href="rental1.html">창업지원시설</a>
+                                </li>
+                                <li>
+                                    <a href="partner.html">창업 파트너</a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </nav>
+
+                <div class="header__menu">
+                    <a href="sub5_3.html">로그인</a>
+                    <a href="mypage1.html">My Page</a>
+                    <a href="sub5_1.html">회원가입</a>
+                </div>
+
+                <a href="javascript:mobileMenuOpen()" class="mobile-btn mobile"></a>
+
+            </div>
+        </header>
+
+        <nav class="mobile-menu">
+            <div class="mobile-menu-wrap">
+
+                <a href="javascript:mobileMenuClose()" class="close-btn"></a>
+
+                <ul class="depth1">
+                    <li>
+                        <a href="#none" class="depth1-txt toggle">창업서비스</a>
+                        <ul class="depth2">
+                            <li>
+                                <a href="sub.html">프로그램 정보</a>
+                            </li>
+                            <li>
+                                <a href="live.html">입주</a>
+                            </li>
+                            <li>
+                                <a href="education_form.html">교 육</a>
+                            </li>
+                            <li>
+                                <a href="education_apply.html">액셀러레이팅</a>
+                            </li>
+                            <li>
+                                <a href="education_apply.html">멘토링·컨설팅</a>
+                            </li>
+                            <li>
+                                <a href="education_form.html">창업행사·네트워크</a>
+                            </li>
+                            <li>
+                                <a href="rental1.html">장소대관</a>
+                            </li>
+                            <li>
+                                <a href="device.html">장비대여</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#none" class="depth1-txt">창업정보</a>
+                        <ul class="depth2">
+                            <li>
+                                <a href="companyList.html">창업정보</a>
+                            </li>
+                            <li>
+                                <a href="investinfo1.html">투자정보</a>
+                            </li>
+                            <li>
+                                <a href="news1.html">News</a>
+                            </li>
+                            <li>
+                                <a href="reference1.html">자료실</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#none" class="depth1-txt">이용알림</a>
+                        <ul class="depth2">
+                            <li>
+                                <a href="notice1.html">공지사항</a>
+                            </li>
+                            <li>
+                                <a href="help1.html">플랫폼 이용안내</a>
+                            </li>
+                            <li>
+                                <a href="survey1.html">설문조사</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#none" class="depth1-txt">서울창업</a>
+                        <ul class="depth2">
+                            <li>
+                                <a href="startup_intro.html">창업소개</a>
+                            </li>
+                            <li>
+                                <a href="rental1.html">창업지원시설</a>
+                            </li>
+                            <li>
+                                <a href="partner.html">창업 파트너</a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+
+                <div class="mobile__menu__info">
+
+                    <div class="menu-box">
+                        <a href="sub5_3.html">로그인</a>
+                    </div>
+                    <div class="menu-box">
+                        <a href="mypage1.html">My Page</a>
+                    </div>
+                    <div class="menu-box">
+                        <a href="sub5_1.html">회원가입</a>
+                    </div>
+
+                </div>
+            </div>
+        </nav>
+
+
+        <div class="wrapper imgLiveBg">
+
+            <!-- <section class="centerText">
+                <div class="img-box">
+                    <img src="../img/img_live_bg.png" alt="이미지">
+                </div>
+            <h2>Startup Mypage</h2>
+            <h3>스타트업의 꿈을 실현할 수 있는 도시, 서울<br>
+                스타트업의 가치를 더하여 함께 성장합니다.</h3>
+            </section> -->
+            <!-- 헤더배경 -->
+            <section class="sub__page__visual">
+                <div class="img-box">
+                    <img src="../img/img_live_bg4.png" alt="이미지">
+                </div>
+                <div class="centerText">
+                    <h2>Startup Service</h2>
+                    <h3>스타트업의 꿈을 실현할 수 있는 도시, 서울<br>
+                        스타트업의 가치를 더하여 함께 성장합니다.</h3>
+                </div>
+            </section>
+            <!-- 해더배경끝 -->
+
+            <section class="education">
+
+                <!-- 우측 카테고리 -->
+                <article class="page__tit__info">
+                    <div class="inner relative">
+                        <div class="page__tit">
+                            <span class="tit-txt type6">장소대관</span>
+                            <article class="nav__display">
+                                <span class="nav-txt">Home</span>
+                                <span class="nav-txt">창업서비스</span>
+                                <span class="nav-txt">장소대관</span>
+                            </article>
+                        </div>
+                    </div>
+                </article>
+                <!-- 우측 카테고리 끝 -->
+                <!-- 탭 -->
+                <article class="page__tabs type4">
+                    <div class="inner">
+                        <div class="tabs__wrap">
+                            <h2>
+                                <div class="orangeBar"></div>&nbsp&nbsp아이디어룸
+                            </h2>
+                            <ul>
+                                <li><a href="./rental2.html">공간안내</a></li>
+                                <li><a href="#none">예약안내</a></li>
+                                <li><a href="./rental3.html" class="on">이용일정</a></li>
+
+                            </ul>
+                        </div>
+
+                    </div>
+
+                </article>
+                <!-- 탭끝 -->
+                <!-- 본문 -->
+                <article>
+                    <div class="inner">
+                        <div class="dateBox">
+                            <div class="monthBox">
+                                <p><button class="leftBtn">&lt;</button>2020년 12월 <button class="rightBtn">></button>
+                                </p>
+                                <br>
+                                <table class="calendar">
+                                    <thead>
+                                        <tr>
+                                            <th>일</th>
+                                            <th>월</th>
+                                            <th>화</th>
+                                            <th>수</th>
+                                            <th>목</th>
+                                            <th>금</th>
+                                            <th>토</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td></td>
+                                            <td></td>
+                                            <td>1</td>
+                                            <td>2</td>
+                                            <td>3</td>
+                                            <td>4</td>
+                                            <td>5</td>
+                                        </tr>
+                                        <tr>
+                                            <td>6</td>
+                                            <td>7</td>
+                                            <td>8</td>
+                                            <td>9</td>
+                                            <td>10</td>
+                                            <td>11</td>
+                                            <td>12</td>
+                                        </tr>
+                                        <tr>
+                                            <td>13</td>
+                                            <td>14</td>
+                                            <td>15</td>
+                                            <td>16</td>
+                                            <td>17</td>
+                                            <td>18</td>
+                                            <td>19</td>
+                                        </tr>
+                                        <tr>
+                                            <td>20</td>
+                                            <td>21</td>
+                                            <td>22</td>
+                                            <td>23</td>
+                                            <td>24</td>
+                                            <td>25</td>
+                                            <td>26</td>
+                                        </tr>
+                                        <tr>
+                                            <td>27</td>
+                                            <td>28</td>
+                                            <td>29</td>
+                                            <td>30</td>
+                                            <td>31</td>
+                                            <td><span class="greyText">1</span></td>
+                                            <td><span class="greyText">2</span></td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                                <br>
+                                <p class="redText">* 날짜를 클릭하면 해당 일자의 장비대여 상태를 볼 수 있습니다.</p>
+                            </div>
+                            <div class="timeBox">
+                                <p>
+
+                                    <strong class="dib">
+                                        <div class="orangeBar"></div>&nbsp2020년 12월 29일 사용현황
+                                    </strong>
+                                    <span class="fRight">
+                                        <img src="../img/black_clock.png" alt="">신청불가
+                                    </span>
+                                    <span class="fRight redText">
+                                        <img src="../img/red_clock.png" alt="">신청가능
+                                    </span>
+                                </p>
+                                <p style="clear:both;"></p>
+                                <br>
+                                <div class="pd10">
+                                    <div><strong>오전</strong>
+                                        <span class="redBox">09:00</span>
+                                        <span class="blueBox">10:00</span>
+                                        <span class="blueBox">11:00</span>
+                                    </div>
+                                    <br>
+                                    <br>
+                                    <div><strong>오후</strong>
+                                        <span class="blueBox">12:00</span>
+                                        <span class="redBox">13:00</span>
+                                        <span class="redBox">14:00</span>
+                                        <span class="noBox">15:00</span>
+                                        <span class="noBox">16:00</span>
+                                        <span class="redBox">17:00</span>
+                                        <span class="noBox">18:00</span>
+
+                                    </div>
+                                    <a href="rental1.html"><button class="orangeBtn">장소대관 목록가기</button></a>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+                <!-- 본문끝 -->
+            </section>
+
+
+            <aside class="floating__menu">
+                <!-- right_side -->
+
+                <ul>
+                    <li><a href="#none" class="type1">입&nbsp&nbsp&nbsp&nbsp주</a></li>
+                    <li><a href="#none" class="type2">교&nbsp&nbsp&nbsp&nbsp육</a></li>
+                    <li><a href="#none" class="type3">장소대관</a></li>
+                    <li><a href="#none" class="type4">장비대여</a></li>
+                </ul>
+                <div class="top-box">
+                    <a href="#">▲ TOP</a>
+                </div>
+
+                <!-- right_side -->
+            </aside>
+
+            <!-- wrapper_end -->
+        </div>
+
+
+        <footer>
+            <div class="footer__wrap inner">
+
+                <div class="footer__logo">
+                    <img src="../img/img_footer_logo.png" alt="이미지">
+                </div>
+
+                <div class="footer__con">
+                    <div class="con-txt">
+                        (04147) 서울특별시 마포구 백범로31길 21 서울창업허브<br />
+                        Tel.02) 222-2222 Fax. 02) 222-2222
+                    </div>
+                    <div class="copyright-txt">
+                        ⓒ Seolu StartupHub. All right reserved.
+                    </div>
+                </div>
+
+                <div class="footer__menu">
+                    <ul>
+                        <li>
+                            <a href="privacyGuide.html" class="">개인정보취급방침</a>
+                        </li>
+                        <li>
+                            <a href="termsConditions.html" class="">이용약관</a>
+                        </li>
+                        <li>
+                            <a href="sitemap.html" class="">사이트맵</a>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+
+        </footer>
+    </div>
+
+    <script src="../js/jquery-3.1.1.min.js"></script>
+    <script src="../js/jquery-ui-1.12.1.js"></script>
+    <script src="../js/ui.js"></script>
+    <script src="../js/swiperjs.js"></script>
+    <script src="../js/datepicker.min.js"></script>
+    <script src="../js/datepicker.ko.js"></script>
+    <script src="../js/moment.min.js"></script>
+    <script src="../js/fullcalendar.min.js"></script>
+    <script src="../js/ko.js"></script>
+
+
+
+
+
+    <script>
+        var swiper = new Swiper('.swiper-container', {
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+        });
+    </script>
+</body>
+
+</html>

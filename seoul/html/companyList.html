@@ -1,0 +1,746 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta
+        name="viewport"
+        content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+
+    <head>
+        <meta charset="UTF-8">
+        <title>SEOUL</title>
+        <link type="text/css" rel="stylesheet" href="../css/reset.css"/>
+        <link type="text/css" rel="stylesheet" href="../css/datepicker.min.css"/>
+        <link type="text/css" rel="stylesheet" href="../css/swiper.min.css"/>
+        <link type="text/css" rel="stylesheet" href="../css/ui.css"/>
+        <link type="text/css" rel="stylesheet" href="../css/style.css"/>
+        <link type="text/css" rel="stylesheet" href="../css/fullcalendar.css"/>
+        <link type="text/css" rel="stylesheet" href="../css/responsive.css"/>
+
+    </head>
+
+    <body>
+        <div class="container">
+            <header>
+                <div class="header__wrap">
+                    <h1 class="logo">
+                        <a href="main.html"></a>
+                    </h1>
+                    <nav class="gnb">
+                        <ul class="main-menu">
+                            <li class="menu-item">
+                                <a href="">창업서비스</a>
+                                <ul class="menu-sub">
+                                    <li>
+                                        <a href="sub.html">프로그램 정보</a>
+                                    </li>
+                                    <li>
+                                        <a href="live.html">입주</a>
+                                    </li>
+                                    <li>
+                                        <a href="education_schedule.html">교 육</a>
+                                    </li>
+                                    <li>
+                                        <a href="education_apply.html">액셀러레이팅</a>
+                                    </li>
+                                    <li>
+                                        <a href="sub1_2.html">멘토링·컨설팅</a>
+                                    </li>
+                                    <li>
+                                        <a href="education_form.html">창업행사·네트워크</a>
+                                    </li>
+                                    <li>
+                                        <a href="rental1.html">장소대관</a>
+                                    </li>
+                                    <li>
+                                        <a href="device.html">장비대여</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="menu-item">
+                                <a href="">창업정보</a>
+                                <ul class="menu-sub">
+                                    <li>
+                                        <a href="companyList.html">창업정보</a>
+                                    </li>
+                                    <li>
+                                        <a href="investinfo1.html">투자정보</a>
+                                    </li>
+                                    <li>
+                                        <a href="news1.html">News</a>
+                                    </li>
+                                    <li>
+                                        <a href="reference1.html">자료실</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="menu-item">
+                                <a href="">이용알림</a>
+                                <ul class="menu-sub">
+                                    <li>
+                                        <a href="notice1.html">공지사항</a>
+                                    </li>
+                                    <li>
+                                        <a href="help1.html">플랫폼 이용안내</a>
+                                    </li>
+                                    <li>
+                                        <a href="survey1.html">설문조사</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="menu-item">
+                                <a href="">서울창업</a>
+                                <ul class="menu-sub">
+                                    <li>
+                                        <a href="startup_intro.html">창업소개</a>
+                                    </li>
+                                    <li>
+                                        <a href="rental1.html">창업지원시설</a>
+                                    </li>
+                                    <li>
+                                        <a href="partner.html">창업 파트너</a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </nav>
+
+                    <div class="header__menu">
+                        <a href="sub5_3.html">로그인</a>
+                        <a href="mypage1.html">My Page</a>
+                        <a href="sub5_1.html">회원가입</a>
+                    </div>
+
+                    <a href="javascript:mobileMenuOpen()" class="mobile-btn mobile"></a>
+
+                </div>
+            </header>
+
+            <nav class="mobile-menu">
+                <div class="mobile-menu-wrap">
+
+                    <a href="javascript:mobileMenuClose()" class="close-btn"></a>
+
+                    <ul class="depth1">
+                        <li>
+                            <a href="#none" class="depth1-txt toggle">창업서비스</a>
+                            <ul class="depth2">
+                                <li>
+                                    <a href="sub.html">프로그램 정보</a>
+                                </li>
+                                <li>
+                                    <a href="live.html">입주</a>
+                                </li>
+                                <li>
+                                    <a href="education_form.html">교 육</a>
+                                </li>
+                                <li>
+                                    <a href="education_apply.html">액셀러레이팅</a>
+                                </li>
+                                <li>
+                                    <a href="education_apply.html">멘토링·컨설팅</a>
+                                </li>
+                                <li>
+                                    <a href="education_form.html">창업행사·네트워크</a>
+                                </li>
+                                <li>
+                                    <a href="rental1.html">장소대관</a>
+                                </li>
+                                <li>
+                                    <a href="device.html">장비대여</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#none" class="depth1-txt">창업정보</a>
+                            <ul class="depth2">
+                                <li>
+                                    <a href="companyList.html">창업정보</a>
+                                </li>
+                                <li>
+                                    <a href="investinfo1.html">투자정보</a>
+                                </li>
+                                <li>
+                                    <a href="news1.html">News</a>
+                                </li>
+                                <li>
+                                    <a href="reference1.html">자료실</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#none" class="depth1-txt">이용알림</a>
+                            <ul class="depth2">
+                                <li>
+                                    <a href="notice1.html">공지사항</a>
+                                </li>
+                                <li>
+                                    <a href="help1.html">플랫폼 이용안내</a>
+                                </li>
+                                <li>
+                                    <a href="survey1.html">설문조사</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#none" class="depth1-txt">서울창업</a>
+                            <ul class="depth2">
+                                <li>
+                                    <a href="startup_intro.html">창업소개</a>
+                                </li>
+                                <li>
+                                    <a href="rental1.html">창업지원시설</a>
+                                </li>
+                                <li>
+                                    <a href="partner.html">창업 파트너</a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+
+                    <div class="mobile__menu__info">
+
+                        <div class="menu-box">
+                            <a href="sub5_3.html">로그인</a>
+                        </div>
+                        <div class="menu-box">
+                            <a href="mypage1.html">My Page</a>
+                        </div>
+                        <div class="menu-box">
+                            <a href="sub5_1.html">회원가입</a>
+                        </div>
+
+                    </div>
+                </div>
+            </nav>
+
+            <div class="wrapper imgLiveBg">
+
+                <!-- <section class="centerText"> <div class="img-box"> <img
+                src="../img/img_live_bg.png" alt="이미지"> </div> <h2>Startup Mypage</h2> <h3>스타트업의
+                꿈을 실현할 수 있는 도시, 서울<br> 스타트업의 가치를 더하여 함께 성장합니다.</h3> </section> -->
+                <!-- 헤더배경 -->
+                <section class="sub__page__visual">
+                    <div class="img-box">
+                        <img src="../img/img_live_bg7.png" alt="이미지">
+                    </div>
+                    <div class="centerText">
+                        <h2>Startup Inform</h2>
+                        <h3>스타트업의 꿈을 실현할 수 있는 도시, 서울<br>
+                            스타트업의 가치를 더하여 함께 성장합니다.</h3>
+                    </div>
+                </section>
+                <!-- 해더배경끝 -->
+
+                <section class="education">
+
+                    <!-- 우측 카테고리 -->
+                    <article class="page__tit__info">
+                        <div class="inner relative">
+                            <div class="page__tit">
+                                <span class="tit-txt type6">기업정보</span>
+                                <article class="nav__display">
+                                    <span class="nav-txt">Home</span>
+                                    <span class="nav-txt">창업정보</span>
+                                    <span class="nav-txt">기업정보</span>
+                                    <span class="nav-txt">기업목록</span>
+
+                                </article>
+                            </div>
+                        </div>
+                    </article>
+                    <!-- 우측 카테고리 끝 -->
+                    <!-- 본문 -->
+                    <article>
+                        <div class="inner">
+
+                            <ul class="sectors comlist">
+                                <!-- 1단시작 -->
+                                <li class="sector">
+                                    <!-- <div class=""> <img src="../img/sectors/1_top.png" alt=""> </div> -->
+                                    <a href="" class="ex1">
+                                        <div class="screen">
+                                            <div class="explain-1">▶ 정보통신(Information Technology)</div>
+                                            <img src="../img/sectors/1.png" alt="">
+                                            <div class="explain-2">▶ 정보통신(Information Technology)</div>
+                                        </div>
+                                        <div class="graph st4-1" style="border: #0e656e solid 1px;">
+                                            <span class="sp1" style="width:51.3%;"></span>
+                                            <p style="color:#0e656e">51.3%</p>
+                                        </div>
+                                    </a>
+                                </li>
+
+                                <li class="sector">
+                                    <a class="ex2">
+                                        <div class="screen">
+                                            <div class="explain-1">▶ 소비재(Consumer Discretionary)</div>
+                                            <img src="../img/sectors/2.png" alt="">
+                                            <div class="explain-2">▶ 소비재(Consumer Discretionary)</div>
+                                        </div>
+                                        <div class="graph st4-2" style="border: #18bdc1 solid 1px;">
+                                            <span style="width:18.1%;"></span>
+                                            <p style="color:#18bdc1">18.1%</p>
+                                        </div>
+                                    </a>
+                                </li>
+
+                                <li class="sector">
+                                    <a class="ex3">
+                                        <div class="screen">
+                                            <div class="explain-1">▶ 제조·서비스(Industrials)</div>
+                                            <img src="../img/sectors/3.png" alt="">
+                                            <div class="explain-2">▶ 제조·서비스(Industrials)</div>
+                                        </div>
+                                        <div class="graph st4-3" style="border: #99aa3a solid 1px;">
+                                            <span style="width:15.6%;"></span>
+                                            <p style="color:#99aa3a">15.6%</p>
+                                        </div>
+                                    </a>
+
+                                </li>
+
+                                <li class="sector">
+                                    <a class="ex4">
+                                        <div class="screen">
+                                            <div class="explain-1">▶ 통신 서비스(Communication Services)</div>
+                                            <img src="../img/sectors/4.png" alt="">
+                                            <div class="explain-2">▶ 통신 서비스(Communication Services)</div>
+                                        </div>
+                                        <div class="graph st4-4" style="border: #fbab38 solid 1px;">
+                                            <span style="width:5.8%;"></span>
+                                            <p style="color:#fbab38">5.8%</p>
+                                        </div>
+                                    </a>
+
+                                </li>
+
+                                <li class="sector">
+                                    <a class="ex5">
+                                        <div class="screen">
+                                            <div class="explain-1">▶ 원자재(Materials)</div>
+                                            <img src="../img/sectors/5.png" alt="">
+                                            <div class="explain-2">▶ 원자재(Materials)</div>
+                                        </div>
+                                        <div class="graph st4-5" style="border: #f05225 solid 1px;">
+                                            <span style="width:3.5%;"></span>
+                                            <p style="color:#f05225">3.5%</p>
+                                        </div>
+                                    </a>
+
+                                </li>
+                                <!-- 1단 끝 -->
+                                <li class="sector">
+                                    <a class="ex6">
+                                        <div class="screen">
+                                            <div class="explain-1">▶ 생활필수제품(Consumer Staples)</div>
+                                            <img src="../img/sectors/6.png" alt="">
+                                            <div class="explain-2">▶ 생활필수제품(Consumer Staples)</div>
+                                        </div>
+                                        <div class="graph st4-6" style="border: #981f30 solid 1px;">
+                                            <span style="width:3.2%;"></span>
+                                            <p style="color:#981f30">3.2%</p>
+                                        </div>
+                                    </a>
+
+                                </li>
+                                <li class="sector">
+                                    <a class="ex7">
+                                        <div class="screen">
+                                            <div class="explain-1">▶ 헬스케어(Health Care)</div>
+                                            <img src="../img/sectors/7.png" alt="">
+                                            <div class="explain-2">▶ 헬스케어(Health Care)</div>
+                                        </div>
+                                        <div class="graph st4-7" style="border: #46aadd solid 1px;">
+                                            <span style="width:1.5%;"></span>
+                                            <p style="color:#46aadd">1.5%</p>
+                                        </div>
+                                    </a>
+
+                                </li>
+                                <li class="sector">
+                                    <a class="ex8">
+                                        <div class="screen">
+                                            <div class="explain-1">▶ 금융(Financials)</div>
+                                            <img src="../img/sectors/8.png" alt="">
+                                            <div class="explain-2">▶ 금융(Financials)</div>
+                                        </div>
+                                        <div class="graph st4-8" style="border: #1cc58c solid 1px;">
+                                            <span style="width:0.7%;"></span>
+                                            <p style="color:#1cc58c">0.7%</p>
+                                        </div>
+                                    </a>
+
+                                </li>
+                                <li class="sector">
+                                    <a class="ex9">
+                                        <div class="screen">
+                                            <div class="explain-1">▶ 부동산(Real Estate)</div>
+                                            <img src="../img/sectors/9.png" alt="">
+                                            <div class="explain-2">▶ 부동산(Real Estate)</div>
+                                        </div>
+                                        <div class="graph st4-9" style="border: #7474f4 solid 1px;">
+                                            <span style="width:3.5%;"></span>
+                                            <p style="color:#7474f4">3.5%</p>
+                                        </div>
+                                    </a>
+
+                                </li>
+                                <li class="sector">
+                                    <a class="ex10">
+                                        <div class="screen">
+                                            <div class="explain-1">▶ 종합</div>
+                                            <img src="../img/sectors/10.png" alt="">
+                                            <div class="explain-2">▶ 종합</div>
+                                        </div>
+                                        <div class="graph st4-10" style="border: #ff7280 solid 1px;">
+                                            <span style="width:100%;"></span>
+                                            <p style="color:#fff">100%</p>
+                                        </div>
+                                    </a>
+
+                                </li>
+
+                                <!-- 2단 끝 -->
+
+                                <div class="mgt35 accu1820 bold">
+                                    기업정보분류기준: Global Industry Classfication Standard (GICS:글로벌산업분류기준)<br>
+                                    - 스타트업 기업의 글로벌진흥을 도모하고자, 국내외 주식시장의 산업분류기준으로 활용되는 글로벌기준을 적용
+                                </div>
+
+                                <!-- <div class="exp" style="background-color:#fee572;padding:15px
+                                102px;margin-top: 60px;"> <a>ㅇㅇㅇ</a> </div> -->
+                            </ul>
+
+                            <div
+                                class="exp"
+                                style="background-color:#fee572;padding:15px 102px;margin-top: 60px;"></div>
+                            <br>
+                            <br>
+                            <div class="searchBox tc">
+                                <input type="text" class="inputStandard dib" style="width:290px">
+                                <div style="max-width: 100px;padding:12px 15px" class="greyBtn dib">검색하기</div>
+                                <div style="max-width: 100px;padding:12px 15px" class="grey2Btn dib">전체보기</div>
+                                <ul class="tagList">
+                                    <li>#AI</li>
+                                    <li>#빅데이터</li>
+                                    <li>#솔루션</li>
+                                    <li>#플랫폼</li>
+                                    <li>#바이오</li>
+                                </ul>
+                                <br>
+                            </div>
+                        </div>
+                    </article>
+                    <article>
+                        <div class="inner">
+                            <div class="ofh">
+                                <table class="copList">
+                                    <thead>
+                                        <tr>
+                                            <th>부문</th>
+                                            <th>기업명</th>
+                                            <th>대표자명</th>
+                                            <th>주소</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>정보기술(Information Technology)</td>
+                                            <td>(주)이준시스템</td>
+                                            <td>한상훈</td>
+                                            <td>서울특별시 마포구 성암로 330 B동 212호</td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                커뮤니케이션 서비스(Communiscation Services)
+                                            </td>
+                                            <td>
+                                                (주)중앙아이씨에스</td>
+                                            <td>
+                                                김성수</td>
+                                            <td>서울특별시 마포구 성암로 220 DMC첨단산업센터 A동 412호</td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                산업(Industrals)</td>
+                                            <td>
+                                                리솔</td>
+                                            <td>
+                                                김문수</td>
+                                            <td>서울특별시 송파구 백제고분로 37길 6, 송월빌딩 4층 412호</td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                헬스케어(Health Care)
+                                            </td>
+                                            <td>
+                                                알리몰리스튜디오유한회사</td>
+                                            <td>
+                                                허용국</td>
+                                            <td>춘천시 강원대학교 보듬관 1203호</td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                필수소비재(Consumer Staples)</td>
+                                            <td>
+                                                (주)형설이엠제이</td>
+                                            <td>
+                                                장진혁</td>
+                                            <td>서울특별시 마포구 월드컵북로 402</td>
+                                        </tr>
+
+                                    </tbody>
+                                </table>
+                            </div>
+                            <article class="paging">
+                                <ul>
+                                    <li class="control left">
+                                        <a href="#none" class="first"></a>
+                                        <a href="#none" class="prev"></a>
+                                    </li>
+                                    <li>
+                                        <a href="#none" class="num current">1</a>
+                                    </li>
+                                    <li>
+                                        <a href="#none" class="num">2</a>
+                                    </li>
+                                    <li>
+                                        <a href="#none" class="num">3</a>
+                                    </li>
+                                    <li>
+                                        <a href="#none" class="num">4</a>
+                                    </li>
+                                    <li>
+                                        <a href="#none" class="num">5</a>
+                                    </li>
+                                    <li>
+                                        <a href="#none" class="num">6</a>
+                                    </li>
+                                    <li>
+                                        <a href="#none" class="num">7</a>
+                                    </li>
+                                    <li>
+                                        <a href="#none" class="num">8</a>
+                                    </li>
+                                    <li>
+                                        <a href="#none" class="num">9</a>
+                                    </li>
+                                    <li>
+                                        <a href="#none" class="num">10</a>
+                                    </li>
+                                    <li class="control right">
+                                        <a href="#none" class="next"></a>
+                                        <a href="#none" class="last"></a>
+                                    </li>
+                                </ul>
+                            </article>
+
+                        </div>
+                    </article>
+                    <!-- 본문끝 -->
+                </section>
+
+                <aside class="floating__menu">
+                    <!-- right_side -->
+
+                    <ul>
+                        <li>
+                            <a href="#none" class="type1">입&nbsp&nbsp&nbsp&nbsp주</a>
+                        </li>
+                        <li>
+                            <a href="#none" class="type2">교&nbsp&nbsp&nbsp&nbsp육</a>
+                        </li>
+                        <li>
+                            <a href="#none" class="type3">장소대관</a>
+                        </li>
+                        <li>
+                            <a href="#none" class="type4">장비대여</a>
+                        </li>
+                    </ul>
+                    <div class="top-box">
+                        <a href="#">▲ TOP</a>
+                    </div>
+
+                    <!-- right_side -->
+                </aside>
+
+                <!-- wrapper_end -->
+            </div>
+
+            <footer>
+                <div class="footer__wrap inner">
+
+                    <div class="footer__logo">
+                        <img src="../img/img_footer_logo.png" alt="이미지">
+                    </div>
+
+                    <div class="footer__con">
+                        <div class="con-txt">
+                            (04147) 서울특별시 마포구 백범로31길 21 서울창업허브<br/>
+                            Tel.02) 222-2222 Fax. 02) 222-2222
+                        </div>
+                        <div class="copyright-txt">
+                            ⓒ Seoul StartupHub. All right reserved.
+                        </div>
+                    </div>
+
+                    <div class="footer__menu">
+                        <ul>
+                            <li>
+                                <a href="privacyGuide.html" class="">개인정보취급방침</a>
+                            </li>
+                            <li>
+                                <a href="termsConditions.html" class="">이용약관</a>
+                            </li>
+                            <li>
+                                <a href="sitemap.html" class="">사이트맵</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                </div>
+
+            </footer>
+        </div>
+
+        <script src="../js/jquery-3.1.1.min.js"></script>
+        <script src="../js/jquery-ui-1.12.1.js"></script>
+        <script src="../js/ui.js"></script>
+        <script src="../js/swiperjs.js"></script>
+        <script src="../js/datepicker.min.js"></script>
+        <script src="../js/datepicker.ko.js"></script>
+        <script src="../js/moment.min.js"></script>
+        <script src="../js/fullcalendar.min.js"></script>
+        <script src="../js/ko.js"></script>
+        <script src="../js/sector.js"></script>
+
+        <script>
+            $(function () {
+                $('.sector .ex1').hover(function () {
+                    $('.exp').html('<strong>정보통신(Information Technology)</strong> <br><br>' +
+                                   '- 소프트웨어 및 서비스(Software & Services): 88.1% <br><br>' +
+                                   '- 기술 하드웨어 및 장비(Technology Hardware Equipment): 10.9% <br><br>' +
+                                   '- 반도체 및 반도체 장비(Semiconductors & Semiconductor Equipment): 1.0%<br>');
+                }, function () {
+                    // on mouseout, reset the background colour
+                    $('.sector .ex1').text(
+                        
+                    );
+                });
+            });
+
+            $(function () {
+                $('.sector .ex2').hover(function () {
+                    $('.exp').html('<strong>소비재(Consumer Discretionary)</strong> <br><br>' +
+                                   '- 소매(Retailing): 42.2%<br><br>' +
+                                   '- 기내구 소비재 및 의류(Consumer Durables & Apparel): 35.0% <br><br>' +
+                                   '- 소비자 서비스(Consumer Services): 21.0%<br><br>' +
+                                   '- 자동차 및 부품(Automobiles & Components): 1.8%<br>');
+                }, function () {
+                    // on mouseout, reset the background colour
+                    $('.sector .ex1').text(
+                        
+                    );
+                });
+            });
+            $(function () {
+                $('.sector .ex3').hover(function () {
+                    $('.exp').html('<strong>제조·서비스(Industrials)</strong> <br><br>' +
+                                   '- 상업 및 전문 서비스(Commercial & Professional Services): 67.9%<br><br>' +
+                                   '- 자본재(Capital Goods): 28.3%<br><br>' +
+                                   '- 운송(Transportation): 3.7%<br>');
+                }, function () {
+                    // on mouseout, reset the background colour
+                    $('.sector .ex1').text(
+                        
+                    );
+                });
+            });
+            $(function () {
+                $('.sector .ex4').hover(function () {
+                    $('.exp').html('<strong>통신 서비스(Communication Services)</strong> <br><br>' +
+                                   '- 소프트웨어 및 서비스(Software & Services): 88.1% <br><br>' +
+                                   '- 기술 하드웨어 및 장비(Technology Hardware Equipment): 10.9% <br><br>' +
+                                   '- 반도체 및 반도체 장비(Semiconductors & Semiconductor Equipment): 1.0%<br>');
+                }, function () {
+                    // on mouseout, reset the background colour
+                    $('.sector .ex1').text(
+                        
+                    );
+                });
+            });
+            $(function () {
+                $('.sector .ex5').hover(function () {
+                    $('.exp').html('<strong>원자재(Materials)</strong> <br><br>' +
+                                   '- 원자재(Materials): 100.0%<br>') 
+                }, function () {
+                    // on mouseout, reset the background colour
+                    $('.sector .ex1').text(
+                        
+                    );
+                });
+            });
+            $(function () {
+                $('.sector .ex6').hover(function () {
+                    $('.exp').html('<strong>생활필수제품(Consumer Staples)</strong> <br><br>' +
+                                   '- 식품, 음료 및 담배(Food, Beverage & Tobacco): 98.7<br><br>' +
+                                   '- 가정용품 및 개인용품(Household & Personal Products): 1.3%<br>') 
+                }, function () {
+                    // on mouseout, reset the background colour
+                    $('.sector .ex1').text(
+                        
+                    );
+                });
+            });
+            $(function () {
+                $('.sector .ex7').hover(function () {
+                    $('.exp').html('<strong>헬스케어(Health Care)</strong> <br><br>' +
+                                   '- 헬스케어 장비 및 서비스(Health Care Equipment & Services): 75.7%br><br><br>'  +
+                                   '- 제약, 생명공학 및 생명과학(Pharmaceuticals, Biotechnology & Life Sciences): 24.3%<br>') 
+                }, function () {
+                    // on mouseout, reset the background colour
+                    $('.sector .ex1').text(
+                        
+                    );
+                });
+            });
+            $(function () {
+                $('.sector .ex8').hover(function () {
+                    $('.exp').html('<strong>금융(Financials)</strong> <br><br>' +
+                                   '- 다양한 금융(Diversified Financials): 87.5%<br><br>' +
+                                   '- 보험(Insurance): 12.5%<br>')
+                }, function () {
+                    // on mouseout, reset the background colour
+                    $('.sector .ex1').text(
+                        
+                    );
+                });
+            });
+            $(function () {
+                $('.sector .ex9').hover(function () {
+                    $('.exp').html('<strong>부동산(Real Estate)</strong> <br><br>' +
+                                   '- 부동산(Real Estate): 100.0%<br>')
+                }, function () {
+                    // on mouseout, reset the background colour
+                    $('.sector .ex1').text(
+                        
+                    );
+                });
+            });
+            $(function () {
+                $('.sector .ex10').hover(function () {
+                    $('.exp').html('<strong>종합</strong> <br><br>' +
+                                   '종합~~ <br>')
+                }, function () {
+                    // on mouseout, reset the background colour
+                    $('.sector .ex1').text(
+                        
+                    );
+                });
+            });
+        </script>
+
+    </body>
+
+</html>
