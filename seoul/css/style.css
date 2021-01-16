@@ -22,6 +22,7 @@ body.scrollHidden * {
 
 .container .wrapper {
     padding-bottom: 45px;
+    /* position: relative; */
 }
 
 nav.mobile-menu {
@@ -217,13 +218,13 @@ header .header__wrap nav.gnb ul.main-menu li.menu-item {
     padding: 0 10px;
 }
 
-header .header__wrap nav.gnb ul.main-menu li.menu-item:nth-of-type(1) > a~.menu-sub {
+header .header__wrap nav.gnb ul.main-menu li.menu-item:nth-of-type(1)>a~.menu-sub {
     left: 0;
     transform: none;
     padding-left: 20px;
 }
 
-header .header__wrap nav.gnb ul.main-menu li.menu-item > a {
+header .header__wrap nav.gnb ul.main-menu li.menu-item>a {
     /* padding: 50px 15px 10px;
     line-height: 35px;
     color: rgba(255, 255, 255, 0.4);
@@ -238,17 +239,17 @@ header .header__wrap nav.gnb ul.main-menu li.menu-item > a {
     padding-top: 50px;
 }
 
-header .header__wrap nav.gnb ul.main-menu li.menu-item > a.on {
+header .header__wrap nav.gnb ul.main-menu li.menu-item>a.on {
     background: rgba(0, 0, 0, 0.4);
     color: #fdb525;
 
 }
 
-header .header__wrap nav.gnb ul.main-menu li.menu-item > a.on~.menu-sub {
+header .header__wrap nav.gnb ul.main-menu li.menu-item>a.on~.menu-sub {
     display: block;
 }
 
-header .header__wrap nav.gnb ul.main-menu li.menu-item > a~.menu-sub {
+header .header__wrap nav.gnb ul.main-menu li.menu-item>a~.menu-sub {
     display: none;
     position: absolute;
     left: 50%;
@@ -259,20 +260,20 @@ header .header__wrap nav.gnb ul.main-menu li.menu-item > a~.menu-sub {
     bottom: -48px;
 }
 
-header .header__wrap nav.gnb ul.main-menu li.menu-item > a~.menu-sub li {
+header .header__wrap nav.gnb ul.main-menu li.menu-item>a~.menu-sub li {
     display: inline-block;
     vertical-align: middle;
     padding: 0 20px;
     height: 100%;
 }
 
-header .header__wrap nav.gnb ul.main-menu li.menu-item > a~.menu-sub li a {
+header .header__wrap nav.gnb ul.main-menu li.menu-item>a~.menu-sub li a {
     font-size: 18px;
     color: #fff;
     line-height: 44px;
 }
 
-header .header__wrap nav.gnb ul.main-menu li.menu-item > a~.menu-sub li a:hover {
+header .header__wrap nav.gnb ul.main-menu li.menu-item>a~.menu-sub li a:hover {
     color: #fdb525;
 }
 
@@ -2553,7 +2554,37 @@ div.rightBox {
     padding: 45px 0;
 }
 
+
 .centerText {
+    /* padding: 15vw 0; */
+    margin: 0 auto;
+    text-align: left;
+    margin-left: 22vw;
+    color: white;
+    position: absolute;
+    top: 13vw;
+    z-index: 5;
+
+}
+
+.centerText h2 {
+    color: white;
+    font-size: 3.8vw;
+    font-family: Barlow;
+    text-shadow: 1px 5px 5px #222;
+}
+
+.centerText h3 {
+    color: white;
+    font-size: 1.5vw;
+    padding-top: 2vw;
+    text-shadow: 1px 3px 3px #222;
+    line-height: 2.4vw;
+}
+
+
+
+.centerText2 {
     padding: 250px 0;
     margin: 0 auto;
     text-align: left;
@@ -2563,14 +2594,14 @@ div.rightBox {
     top: 0;
 }
 
-.centerText h2 {
+.centerText2 h2 {
     color: white;
     font-size: 70px;
     font-family: Barlow;
     text-shadow: 1px 5px 5px #222;
 }
 
-.centerText h3 {
+.centerText2 h3 {
     color: white;
     font-size: 21px;
     padding-top: 25px;
@@ -3179,6 +3210,10 @@ div.refRoomDoc table tbody tr:nth-child(3) td {
     height: 14px;
     background-color: #c9dbf6;
     display: inline-block;
+}
+
+.mgt100 {
+    margin-top: 100px;
 }
 
 .mgt35 {
@@ -4349,10 +4384,12 @@ div.efoijwe table td {
     font-family: 'NanumSquare', sans-serif;
     font-weight: bold;
 }
+
 .ns-normal {
     font-family: 'NanumSquare', sans-serif;
     font-weight: 400;
 }
+
 .ns-exbold {
     font-family: 'NanumSquare', sans-serif;
     font-weight: bolder;
@@ -4360,15 +4397,16 @@ div.efoijwe table td {
 
 .sectors.comlist {
     display: block;
-    min-width: 490px;
+    min-width: 290px;
     position: relative;
     text-align: center;
     margin: 0 auto;
     width: 100%;
 }
+
 .sectors.invest {
     display: inline-block;
-    min-width: 490px;
+    min-width: 290px;
     position: relative;
     text-align: center;
     margin: 0 auto;
@@ -4390,6 +4428,7 @@ div.efoijwe table td {
     font-weight: 600;
     line-height: 13px;
 }
+
 .sectors.invest .graph.st1-1 span::before {
     content: '분야별 비율';
     position: absolute;
@@ -4399,6 +4438,7 @@ div.efoijwe table td {
     font-weight: 700;
     color: #666666;
 }
+
 .sectors.invest .graph.st2-1 span::before {
     content: '조성액';
     position: absolute;
@@ -4409,6 +4449,7 @@ div.efoijwe table td {
     color: #666666;
 
 }
+
 .sectors.invest .graph.st3-1 span::before {
     content: '투자액';
     position: absolute;
@@ -4424,42 +4465,49 @@ div.efoijwe table td {
     border-radius: 40px;
     display: block;
     height: 25px;
-    line-height: 29px;
+    line-height: 27px;
     box-sizing: border-box;
-    margin: 0;
+    margin: -1px;
     text-align: center;
     font-size: 18px;
     color: #fff;
     font-weight: 500;
 
 }
+
 .sector .graph p {
     display: block;
     text-align: right;
     font-size: 18px;
-    margin-top: -19px;
+    margin-top: -18px;
     padding-right: 5px;
 }
+
 .sector .graph.st1-1 span {
     background: #0e656e;
     animation: st1-1 2s 1;
 }
+
 .sector .graph.st1-2 span {
     background: #18bdc1;
     animation: st1-2 2s 1;
 }
+
 .sector .graph.st1-3 span {
     background: #99aa3a;
     animation: st1-3 2s 1;
 }
+
 .sector .graph.st1-4 span {
     background: #fbab38;
     animation: st1-4 2s 1;
 }
+
 .sector .graph.st1-5 span {
     background: #f05225;
     animation: st1-5 2s 1;
 }
+
 .sector .graph.st1-6 span {
     background: #981f30;
     animation: st1-6 2s 1;
@@ -4468,91 +4516,114 @@ div.efoijwe table td {
 @keyframes st1-1 {
     0% {
         width: 0;
-        color: rgba(255,255,255,0);
+        color: rgba(255, 255, 255, 0);
     }
+
     30% {
-        color: rgba(255,255,255,1);
+        color: rgba(255, 255, 255, 1);
     }
+
     100% {
         width: 38%;
     }
 }
+
 @keyframes st1-2 {
     0% {
         width: 0;
-        color: rgba(255,255,255,0);
+        color: rgba(255, 255, 255, 0);
     }
+
     30% {
-        color: rgba(255,255,255,1);
+        color: rgba(255, 255, 255, 1);
     }
+
     100% {
         width: 16.5%;
     }
 }
+
 @keyframes st1-3 {
     0% {
         width: 0;
-        color: rgba(255,255,255,0);
+        color: rgba(255, 255, 255, 0);
     }
+
     30% {
-        color: rgba(255,255,255,1);
+        color: rgba(255, 255, 255, 1);
     }
+
     100% {
         width: 14.8%;
     }
 }
+
 @keyframes st1-4 {
     0% {
         width: 0;
-        color: rgba(255,255,255,0);
+        color: rgba(255, 255, 255, 0);
     }
+
     30% {
-        color: rgba(255,255,255,1);
+        color: rgba(255, 255, 255, 1);
     }
+
     100% {
         width: 12.5%;
     }
 }
+
 @keyframes st1-5 {
     0% {
         width: 0;
-        color: rgba(255,255,255,0);
+        color: rgba(255, 255, 255, 0);
     }
+
     30% {
-        color: rgba(255,255,255,1);
+        color: rgba(255, 255, 255, 1);
     }
+
     100% {
         width: 12%;
     }
 }
+
 @keyframes st1-6 {
     0% {
         width: 0;
-        color: rgba(255,255,255,0);
+        color: rgba(255, 255, 255, 0);
     }
+
     30% {
-        color: rgba(255,255,255,1);
+        color: rgba(255, 255, 255, 1);
     }
+
     100% {
         width: 6.1%;
     }
 }
+
 /* ======== */
 .sector .graph.st2-1 {
     margin-top: 10px;
 }
+
 .sector .graph.st2-2 {
     margin-top: 10px;
 }
+
 .sector .graph.st2-3 {
     margin-top: 10px;
 }
+
 .sector .graph.st2-4 {
     margin-top: 10px;
 }
+
 .sector .graph.st2-5 {
     margin-top: 10px;
 }
+
 .sector .graph.st2-6 {
     margin-top: 10px;
 }
@@ -4561,114 +4632,143 @@ div.efoijwe table td {
     background: #0e656e;
     animation: st2-1 2s 1;
 }
+
 .sector .graph.st2-2 span {
     background: #18bdc1;
     animation: st2-2 2s 1;
 }
+
 .sector .graph.st2-3 span {
     background: #99aa3a;
     animation: st2-3 2s 1;
 }
+
 .sector .graph.st2-4 span {
     background: #fbab38;
     animation: st2-4 2s 1;
 }
+
 .sector .graph.st2-5 span {
     background: #f05225;
     animation: st2-5 2s 1;
 }
+
 .sector .graph.st2-6 span {
     background: #981f30;
     animation: st2-6 2s 1;
 }
+
 @keyframes st2-1 {
     0% {
         width: 0;
-        color: rgba(255,255,255,0);
+        color: rgba(255, 255, 255, 0);
     }
+
     30% {
-        color: rgba(255,255,255,1);
+        color: rgba(255, 255, 255, 1);
     }
+
     100% {
         width: 100%;
     }
 }
+
 @keyframes st2-2 {
     0% {
         width: 0;
-        color: rgba(255,255,255,0);
+        color: rgba(255, 255, 255, 0);
     }
+
     30% {
-        color: rgba(255,255,255,1);
+        color: rgba(255, 255, 255, 1);
     }
+
     100% {
         width: 100%;
     }
 }
+
 @keyframes st2-3 {
     0% {
         width: 0;
-        color: rgba(255,255,255,0);
+        color: rgba(255, 255, 255, 0);
     }
+
     30% {
-        color: rgba(255,255,255,1);
+        color: rgba(255, 255, 255, 1);
     }
+
     100% {
         width: 100%;
     }
 }
+
 @keyframes st2-4 {
     0% {
         width: 0;
-        color: rgba(255,255,255,0);
+        color: rgba(255, 255, 255, 0);
     }
+
     30% {
-        color: rgba(255,255,255,1);
+        color: rgba(255, 255, 255, 1);
     }
+
     100% {
         width: 100%;
     }
 }
+
 @keyframes st2-5 {
     0% {
         width: 0;
-        color: rgba(255,255,255,0);
+        color: rgba(255, 255, 255, 0);
     }
+
     30% {
-        color: rgba(255,255,255,1);
+        color: rgba(255, 255, 255, 1);
     }
+
     100% {
         width: 100%;
     }
 }
+
 @keyframes st2-6 {
     0% {
         width: 0;
-        color: rgba(255,255,255,0);
+        color: rgba(255, 255, 255, 0);
     }
+
     30% {
-        color: rgba(255,255,255,1);
+        color: rgba(255, 255, 255, 1);
     }
+
     100% {
         width: 100%;
     }
 }
+
 /* ==== */
 .sector .graph.st3-1 {
     margin-top: 10px;
 }
+
 .sector .graph.st3-2 {
     margin-top: 10px;
 }
+
 .sector .graph.st3-3 {
     margin-top: 10px;
 }
+
 .sector .graph.st3-4 {
     margin-top: 10px;
 }
+
 .sector .graph.st3-5 {
     margin-top: 10px;
 }
+
 .sector .graph.st3-6 {
     margin-top: 10px;
 }
@@ -4679,104 +4779,127 @@ div.efoijwe table td {
     font-weight: 700;
     font-size: 20px;
 }
+
 .sector .graph.st3-2 span {
     animation: st3-2 0.2s 1;
     color: #18bdc1;
     font-weight: 700;
     font-size: 20px;
 }
+
 .sector .graph.st3-3 span {
     animation: st3-3 0.2s 1;
     color: #99aa3a;
     font-weight: 700;
     font-size: 20px;
 }
+
 .sector .graph.st3-4 span {
     animation: st3-4 0.2s 1;
     color: #fbab38;
     font-weight: 700;
     font-size: 20px;
 }
+
 .sector .graph.st3-5 span {
     animation: st3-5 0.2s 1;
     color: #f05225;
     font-weight: 700;
     font-size: 20px;
 }
+
 .sector .graph.st3-6 span {
     animation: st3-6 0.2s 1;
     color: #981f30;
     font-weight: 700;
     font-size: 20px;
 }
+
 @keyframes st3-1 {
     0% {
         width: 0;
-        color: rgba(255,255,255,0);
+        color: rgba(255, 255, 255, 0);
     }
+
     30% {
-        color: rgba(255,255,255,1);
+        color: rgba(255, 255, 255, 1);
     }
+
     100% {
         width: 100%;
     }
 }
+
 @keyframes st3-2 {
     0% {
         width: 0;
-        color: rgba(255,255,255,0);
+        color: rgba(255, 255, 255, 0);
     }
+
     30% {
-        color: rgba(255,255,255,1);
+        color: rgba(255, 255, 255, 1);
     }
+
     100% {
         width: 100%;
     }
 }
+
 @keyframes st3-3 {
     0% {
         width: 0;
-        color: rgba(255,255,255,0);
+        color: rgba(255, 255, 255, 0);
     }
+
     30% {
-        color: rgba(255,255,255,1);
+        color: rgba(255, 255, 255, 1);
     }
+
     100% {
         width: 100%;
     }
 }
+
 @keyframes st3-4 {
     0% {
         width: 0;
-        color: rgba(255,255,255,0);
+        color: rgba(255, 255, 255, 0);
     }
+
     30% {
-        color: rgba(255,255,255,1);
+        color: rgba(255, 255, 255, 1);
     }
+
     100% {
         width: 100%;
     }
 }
+
 @keyframes st3-5 {
     0% {
         width: 0;
-        color: rgba(255,255,255,0);
+        color: rgba(255, 255, 255, 0);
     }
+
     30% {
-        color: rgba(255,255,255,1);
+        color: rgba(255, 255, 255, 1);
     }
+
     100% {
         width: 100%;
     }
 }
+
 @keyframes st3-6 {
     0% {
         width: 0;
-        color: rgba(255,255,255,0);
+        color: rgba(255, 255, 255, 0);
     }
+
     30% {
-        color: rgba(255,255,255,1);
+        color: rgba(255, 255, 255, 1);
     }
+
     100% {
         width: 100%;
     }
@@ -4788,6 +4911,7 @@ div.efoijwe table td {
     padding-right: 20px;
 
 }
+
 .accu1820 span {
     display: block;
     font-weight: 500;
@@ -4797,10 +4921,19 @@ div.efoijwe table td {
 /* companylist */
 .sector .screen {
     position: relative;
-    overflow: hidden;
 }
 
-.sector > a:hover .explain-1 {
+.sector .screen img {
+    /* position:absolute; */
+    /* top:0;left:0;right:0;bottom:0; */
+    /* max-width: 100%; */
+    /* width: auto; */
+    /* height: auto; */
+    /* display:block; */
+    /* margin:0 auto; */
+}
+
+.sector>a:hover .explain-1 {
     bottom: 29%;
 }
 
@@ -4814,6 +4947,7 @@ div.efoijwe table td {
     font-weight: 700;
     transition: all 0.35s;
 }
+
 .sector .explain-2 {
     position: absolute;
     bottom: 29%;
@@ -4824,10 +4958,12 @@ div.efoijwe table td {
     font-weight: 700;
     transition: all 0.35s;
 }
-.sector > a:hover .explain-2 {
+
+.sector>a:hover .explain-2 {
     color: #fff;
 }
-.sectors > li {
+
+.sectors>li {
     display: inline-block;
     vertical-align: top;
     margin: 20px;
@@ -4837,38 +4973,47 @@ div.efoijwe table td {
     background: #0e656e;
     animation: st4-1 2s 1;
 }
+
 .sector .graph.st4-2 span {
     background: #18bdc1;
     animation: st4-2 2s 1;
 }
+
 .sector .graph.st4-3 span {
     background: #99aa3a;
     animation: st4-3 2s 1;
 }
+
 .sector .graph.st4-4 span {
     background: #fbab38;
     animation: st4-4 2s 1;
 }
+
 .sector .graph.st4-5 span {
     background: #f05225;
     animation: st4-5 2s 1;
 }
+
 .sector .graph.st4-6 span {
     background: #981f30;
     animation: st4-6 2s 1;
 }
+
 .sector .graph.st4-7 span {
     background: #46aadd;
     animation: st4-7 2s 1;
 }
+
 .sector .graph.st4-8 span {
     background: #1cc58c;
     animation: st4-8 2s 1;
 }
+
 .sector .graph.st4-9 span {
     background: #7474f4;
     animation: st4-9 2s 1;
 }
+
 .sector .graph.st4-10 span {
     background: #ff7280;
     animation: st4-10 2s 1;
@@ -4877,123 +5022,154 @@ div.efoijwe table td {
 @keyframes st4-1 {
     0% {
         width: 0;
-        color: rgba(255,255,255,0);
+        color: rgba(255, 255, 255, 0);
     }
+
     30% {
-        color: rgba(255,255,255,1);
+        color: rgba(255, 255, 255, 1);
     }
+
     100% {
         width: 51.3%;
     }
 }
+
 @keyframes st4-2 {
     0% {
         width: 0;
-        color: rgba(255,255,255,0);
+        color: rgba(255, 255, 255, 0);
     }
+
     30% {
-        color: rgba(255,255,255,1);
+        color: rgba(255, 255, 255, 1);
     }
+
     100% {
         width: 18.1%;
     }
 }
+
 @keyframes st4-3 {
     0% {
         width: 0;
-        color: rgba(255,255,255,0);
+        color: rgba(255, 255, 255, 0);
     }
+
     30% {
-        color: rgba(255,255,255,1);
+        color: rgba(255, 255, 255, 1);
     }
+
     100% {
         width: 15.6%;
     }
 }
+
 @keyframes st4-4 {
     0% {
         width: 0;
-        color: rgba(255,255,255,0);
+        color: rgba(255, 255, 255, 0);
     }
+
     30% {
-        color: rgba(255,255,255,1);
+        color: rgba(255, 255, 255, 1);
     }
+
     100% {
         width: 5.8%;
     }
 }
+
 @keyframes st4-5 {
     0% {
         width: 0;
-        color: rgba(255,255,255,0);
+        color: rgba(255, 255, 255, 0);
     }
+
     30% {
-        color: rgba(255,255,255,1);
+        color: rgba(255, 255, 255, 1);
     }
+
     100% {
         width: 3.5%;
     }
 }
+
 @keyframes st4-6 {
     0% {
         width: 0;
-        color: rgba(255,255,255,0);
+        color: rgba(255, 255, 255, 0);
     }
+
     30% {
-        color: rgba(255,255,255,1);
+        color: rgba(255, 255, 255, 1);
     }
+
     100% {
         width: 3.2%;
     }
 }
+
 @keyframes st4-7 {
     0% {
         width: 0;
-        color: rgba(255,255,255,0);
+        color: rgba(255, 255, 255, 0);
     }
+
     30% {
-        color: rgba(255,255,255,1);
+        color: rgba(255, 255, 255, 1);
     }
+
     100% {
         width: 1.5%;
     }
 }
+
 @keyframes st4-8 {
     0% {
         width: 0;
-        color: rgba(255,255,255,0);
+        color: rgba(255, 255, 255, 0);
     }
+
     30% {
-        color: rgba(255,255,255,1);
+        color: rgba(255, 255, 255, 1);
     }
+
     100% {
         width: 0.7%;
     }
 }
+
 @keyframes st4-9 {
     0% {
         width: 0;
-        color: rgba(255,255,255,0);
+        color: rgba(255, 255, 255, 0);
     }
+
     30% {
-        color: rgba(255,255,255,1);
+        color: rgba(255, 255, 255, 1);
     }
+
     100% {
         width: 0.2%;
     }
 }
+
 @keyframes st4-10 {
     0% {
         width: 0;
-        color: rgba(255,255,255,0);
+        color: rgba(255, 255, 255, 0);
     }
+
     30% {
-        color: rgba(255,255,255,1);
+        color: rgba(255, 255, 255, 1);
     }
+
     100% {
         width: 100%;
     }
 }
+
+
 
 /*------------------------------------------------------------반응형--------------------------------------*/
 /*------------------------------------------------------------반응형--------------------------------------*/
@@ -5013,7 +5189,7 @@ div.efoijwe table td {
 /*------------------------------------------------------------반응형--------------------------------------*/
 /*------------------------------------------------------------반응형--------------------------------------*/
 @media (max-width: 1600px) {
-    .centerText {
+    .centerText2 {
         padding: 150px 0;
         top: 100px;
     }
@@ -5025,8 +5201,24 @@ div.efoijwe table td {
     }
 }
 
-@media (max-width: 1400px) {
+@media (min-width: 2000px) {
     .centerText {
+        margin-left: 22.5vw;
+        top: 10.5vw;
+    }
+    .centerText h2 {
+        font-size: 3.5vw;
+    }
+    
+    .centerText h3 {
+        font-size: 1.3vw;
+        padding-top: 2vw;
+        line-height: 2vw;
+    }
+}
+
+@media (max-width: 1400px) {
+    .centerText2 {
         top: 50px;
     }
 }
@@ -5041,7 +5233,7 @@ div.efoijwe table td {
         margin: 0 50px;
     }
 
-    .centerText {
+    .centerText2 {
         padding-top: 50px;
         top: 140px;
     }
@@ -5183,7 +5375,7 @@ div.efoijwe table td {
         width: 80%;
     }
 
-    .centerText {
+    .centerText2 {
         padding-top: 0;
     }
 
@@ -5197,7 +5389,7 @@ div.efoijwe table td {
         margin: 0 10px;
     }
 
-    .centerText {
+    .centerText2 {
         top: 100px;
     }
 
@@ -5294,20 +5486,20 @@ div.efoijwe table td {
         padding-top: 0;
     }
 
-    .centerText {
+    .centerText2 {
         /* margin: 0; */
         top: 100px;
 
     }
 
-    .centerText h2 {
+    .centerText2 h2 {
         font-size: 30px;
         text-shadow: none;
         background: #00000077;
         padding: 10px 10px 10px 30px;
     }
 
-    .centerText h3 {
+    .centerText2 h3 {
         font-size: 17px;
         text-shadow: none;
         background: #00000077;
@@ -5322,7 +5514,7 @@ div.efoijwe table td {
         width: 90%;
     }
 
-    .centerText {
+    .centerText2 {
         margin: 0 auto;
         width: 100%;
         text-align: center;
@@ -5338,6 +5530,7 @@ div.efoijwe table td {
 }
 
 @media (max-width: 700px) {
+
     /* .sectors {
         display:inline-block;
 
@@ -5390,7 +5583,7 @@ div.efoijwe table td {
         font-size: 15px;
     }
 
-    .centerText {
+    .centerText2 {
         /* margin: 0; */
         top: 60px;
 
@@ -5435,6 +5628,7 @@ div.efoijwe table td {
         width: 100%;
     }
 }
+
 @media (max-width: 600px) {
     table.cpInfoTable th {
         width: 100px;
@@ -5552,15 +5746,15 @@ div.efoijwe table td {
         font-size: 14px;
     }
 
-    .centerText {
+    .centerText2 {
         padding-bottom: 80px;
     }
 
-    .centerText h2 {
+    .centerText2 h2 {
         font-size: 24px;
     }
 
-    .centerText h3 {
+    .centerText2 h3 {
         padding-top: 5px;
         font-size: 15px;
         line-height: 20px;
@@ -5571,7 +5765,7 @@ div.efoijwe table td {
         min-width: 600px;
     }
 
-    .centerText {
+    .centerText2 {
         margin: 0 auto;
         width: 100%;
         text-align: center;
