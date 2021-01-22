@@ -608,7 +608,7 @@ section.main__info__chart .chart-box img {
 }
 
 section.main__info__event {
-    padding: 58px 0 53px;
+    padding: 100px 0 53px;
 }
 
 section.main__info__event .swiper-container .swiper-wrapper .swiper-slide a {
@@ -2402,14 +2402,6 @@ article.filter__form .filter__form__wrap ul li.full .filter-box a {
 
 /*# sourceMappingURL=style.css.map */
 /*----------------------------------------------------------------------------------------------------------------------------------------*/
-
-@font-face {
-    font-family: "Barlow";
-    src: url("../fonts/Barlow/Barlow-Bold.ttf") format("truetype");
-    font-weight: 700;
-    font-style: bold;
-}
-
 .dib {
     display: inline-block;
 }
@@ -2873,6 +2865,12 @@ label {
 
 .bold {
     font-weight: 700;
+}
+.fw60 {
+    font-weight: 600;
+}
+.fw50 {
+    font-weight: 500;
 }
 
 table.takeMoney tbody tr {
@@ -4388,28 +4386,17 @@ div.efoijwe table td {
     padding-left: 37px;
 }
 
-.ns-bold {
-    font-family: 'NanumSquare', sans-serif;
-    font-weight: bold;
-}
-
-.ns-normal {
-    font-family: 'NanumSquare', sans-serif;
-    font-weight: 400;
-}
-
-.ns-exbold {
-    font-family: 'NanumSquare', sans-serif;
-    font-weight: bolder;
-}
 
 .sectors.comlist {
     display: inline-block;
     min-width: 290px;
     position: relative;
     text-align: center;
-    margin: 0 auto;
-    width: 100%;
+    /* margin: 0 auto; */
+    /* height: 100%;
+    width: 100% ; */
+    /* overflow: auto; */
+    /* clear:both; */
     
 }
 
@@ -4418,13 +4405,14 @@ div.efoijwe table td {
     min-width: 290px;
     position: relative;
     text-align: center;
+    vertical-align: middle;
     margin: 0 auto;
     width: 100%;
 }
 
 .sectors.invest .sector {
     display: inline-block;
-    margin: -20px;
+    margin: 20px -20px;
 }
 
 /* .st3-1 {
@@ -4451,9 +4439,9 @@ div.efoijwe table td {
 .sectors.invest .st2-1 span::before {
     content: '조성액';
     position: absolute;
-    left: -30px;
-    top: 215px;
-    font-size: 20px;
+    left: 10px;
+    top: 252px;
+    font-size: 16px;
     font-weight: 600;
     color: #666666;
 
@@ -4462,9 +4450,9 @@ div.efoijwe table td {
 .sectors.invest .st2-1-1 span::before {
     content: '투자액';
     position: absolute;
-    left: -30px;
-    top: 248px;
-    font-size: 20px;
+    left: 10px;
+    top: 287px;
+    font-size: 16px;
     font-weight: 600;
     color: #666666;
 
@@ -5183,82 +5171,97 @@ div.efoijwe table td {
 }
 
 .ars {
-    position: relative;
-    z-index:100;
+    /* position: relative; */
+    /* z-index:100; */
 }
-.ar2:hover  {
-    cursor: pointer;
-}
+
     
 
-.ars:hover {
+.ar:hover {
     cursor: pointer;
 }
-.arrow2-1 {
+.ars1 {
+    /* vertical-align: top; */
+    /* float: left; */
+    left:20px;
     position: absolute;
+    /* top:50%; */
+    /* transform: translateY(-50%); */
+    top:260px;
     font-size: 50px;
     font-weight: 900;
     color: #6666;
-    top: 300px;
-    left: 70px;
+    z-index: 10;
+    
+    /* top: 300px;
+    left: 70px; */
 }
-.arrow2-2 {
+.ars2 {
+    right: 20px;
     position: absolute;
+    /* top:50%; */
+    top:260px;
+    /* transform: translateY(-50%); */
     font-size: 50px;
     font-weight: 900;
     color: #6666;
-    top: 300px;
-    right: 70px;
+    z-index:10;
+
+    /* top: 300px;
+    right: 70px; */
 }
-.arrow2-3 {
+.ars3 {
     position: absolute;
     font-size: 50px;
     font-weight: 900;
     color: #6666;
-    top: 130px;
-    left: 70px;
+    top: 100px;
+    left: 20px;
 }
-.arrow2-4 {
+.ars4 {
     position: absolute;
     font-size: 50px;
     font-weight: 900;
     color: #6666;
-    top: 130px;
-    right: 70px;
-}
-.arrow2-5 {
-    position: absolute;
-    font-size: 50px;
-    font-weight: 900;
-    color: #6666;
-    top: 440px;
-    left: 85px;
-}
-.arrow2-6 {
-    position: absolute;
-    font-size: 50px;
-    font-weight: 900;
-    color: #6666;
-    top: 440px;
-    right: 85px;
-}
-.arrow3-1 {
-    position: absolute;
-    font-size: 50px;
-    font-weight: 900;
-    color: #6666;
-    top: 70px;
-    left: 10px;
-}
-.arrow3-2 {
-    position: absolute;
-    font-size: 50px;
-    font-weight: 900;
-    color: #6666;
-    top: 70px;
+    top: 100px;
     right: 20px;
 }
-.arrow4-1 {
+.ars5 {
+    position: absolute;
+    font-size: 50px;
+    font-weight: 900;
+    color: #6666;
+    top: 430px;
+    left: 20px;
+}
+.ars6 {
+    position: absolute;
+    font-size: 50px;
+    font-weight: 900;
+    color: #6666;
+    top: 430px;
+    right: 20px;
+}
+.ars7 {
+    position: absolute;
+    font-size: 50px;
+    font-weight: 900;
+    color: #6666;
+    top: 250px;
+    left: 10px;
+    z-index:10;
+}
+.ars8 {
+    position: absolute;
+    font-size: 50px;
+    font-weight: 900;
+    color: #6666;
+    top: 250px;
+    right: 10px;
+    z-index:10;
+
+}
+.ars9 {
     position: absolute;
     font-size: 50px;
     font-weight: 900;
@@ -5266,7 +5269,7 @@ div.efoijwe table td {
     top: 70px;
     left: 10px;
 }
-.arrow4-2 {
+.ars10 {
     position: absolute;
     font-size: 50px;
     font-weight: 900;
@@ -5277,6 +5280,7 @@ div.efoijwe table td {
 .invest-graph {
     vertical-align: middle;
     text-align: center;
+    margin-top: 50px;
 }
 .invest-graph .i-graph {
     position: relative;
@@ -5287,7 +5291,6 @@ div.efoijwe table td {
     z-index: -1;
     width: auto;
     height: auto;
-
 }
 .img-size {
     width: auto;

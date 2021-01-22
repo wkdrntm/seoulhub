@@ -112,9 +112,10 @@ td {
     float: left;
 }
 .content-name {
-    font-size: 15px;
+    font-size: 20px;
     line-height: 48px;
     color: #666666;
+    /* font-weight: bold; */
 }
 .content-name::before {
     content: " ";
